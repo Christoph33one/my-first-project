@@ -1,0 +1,125 @@
+/*font-style source*/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&family=Permanent+Marker&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+body {
+    font-family: Permanent Marker, sans-serif;
+    color: white;
+    background-color:black;
+}
+    /*Main Text Styling*/
+h1, h2 {
+    font-family: Permanent Marker, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #fff;
+}
+    /*Text Styling*/
+h3 {
+    font-family: Open Sans,sans-serif;
+    text-transform: capitalize;
+    color: #ffff;
+}
+
+/*For Mobile screen sizes Max-Width 600px*/
+@media screen and (max-width: 600px) {
+    .home-logo {
+        font-size: 80px;
+        float: left;
+        margin-left: 30px;
+        margin-top: 30px;
+        color: #FADC3C;
+    }
+    #menu {
+        font-size: 20px;
+        letter-spacing: 4px;
+        
+    }
+    #menu li {
+        float: left;
+        clear: both;
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+    #menu a {
+        text-decoration: none;
+        color: #fff;
+    }
+
+    .container1 {
+        width: 100%;
+        height: auto;
+    }
+    img {
+        width: 100%;
+        height: 400px;
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 30px 0px;
+    }
+    #beginner-guide h2 {
+        text-align: center;
+    }
+    #beginner-guide h3 {
+        text-align: center;
+    }
+
+    .text-divider {
+        width: 100%;
+        height: 2px;
+        margin:30px 0px 30px 0px;
+        background-color: white;
+        display: inline-block;
+    }
+    /*these two images need styling correctly, bottom of image iss cut off, maybe try position center!*/
+    .container2 {
+        width: 100%;
+        height: auto;
+    }
+    .travel-img {
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .container2 h2 {
+        text-align: center;
+    }
+    .container2 p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .food-img {
+        width: 100%;
+        height: 20rem;
+        background-repeat: no-repeat;
+        object-fit: cover;
+    }
+    .container2 h2 {
+        text-align: center;
+    }
+    .container2 p {
+        text-align: center;
+        margin-bottom: 40px;
+    }
+    .social-networking {
+        text-align: center;
+    }
+    .social-networking li {
+        display: inline-block;
+    }
+    .social-networking a {
+        color: #fff;
+        font-size: 80px;
+        padding: 0px 30px;
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+                 /* Web Browser sceen size*/
