@@ -25,16 +25,18 @@ h3, h4 {
     color: #ffff;
 }
 
+
 /*For Mobile screen sizes Max-Width 575px*/
 @media screen and (max-width: 575px) {
-    .home-logo {
-        font-size: 4rem;
-        margin-left: 30px;
-        margin-bottom: 10px;
-        color: #FADC3C;
+    #home-logo  {
+        float: left;
+        margin-left: 10px;
+    }
+    #home-logo h1 {
+        font-size: 5rem;
+        color: #FADC3C;   
     }
     
-    }
     #menu {
         font-size: 2rem;
         letter-spacing: 4px;
@@ -51,7 +53,7 @@ h3, h4 {
         color: #fff;
     }
 
-    .container1 {
+    .hero-image {
         width: 100%;
         height: auto;
     }
@@ -87,10 +89,10 @@ h3, h4 {
         background-repeat: no-repeat;
         object-fit: cover;
     }
-    .container2 h2 {
+    .container h2 {
         text-align: center;
     }
-    .container2 p {
+    .container p {
         text-align: center;
         margin-bottom: 40px;
     }
@@ -100,10 +102,10 @@ h3, h4 {
         background-repeat: no-repeat;
         object-fit: cover;
     }
-    .container2 h2 {
+    .container h2 {
         text-align: center;
     }
-    .container2 p {
+    .container p {
         text-align: center;
         margin-bottom: 40px;
     }
@@ -119,19 +121,12 @@ h3, h4 {
         padding: 0px 30px;
         margin-bottom: 30px;
     }
-}
 
+    /*About Us Page*/
 
-/*For sreen sizes Max-Width 990px*/
-
-@media screen and (max-width: 950px) {
-    .home-logo {
-        font-size: 180px;
-        margin-left: 30px;
-
+    .about-image {
+            width: 100%;
+            height: auto;
     }
+    
 }
-
-
-
-             
