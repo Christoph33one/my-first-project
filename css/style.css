@@ -7,8 +7,9 @@
 }
 body {
     font-family: Permanent Marker, sans-serif;
+    font-size: 1.6rem;
     color: white;
-    background-color:black;
+    background-color: slategray;
 }
     /*Main Text Styling*/
 h1, h2 {
@@ -18,23 +19,24 @@ h1, h2 {
     color: #fff;
 }
     /*Text Styling*/
-h3 {
+h3, h4 {
     font-family: Open Sans,sans-serif;
     text-transform: capitalize;
     color: #ffff;
 }
 
-/*For Mobile screen sizes Max-Width 600px*/
-@media screen and (max-width: 600px) {
+/*For Mobile screen sizes Max-Width 575px*/
+@media screen and (max-width: 575px) {
     .home-logo {
-        font-size: 80px;
-        float: left;
+        font-size: 4rem;
         margin-left: 30px;
-        margin-top: 30px;
+        margin-bottom: 10px;
         color: #FADC3C;
     }
+    
+    }
     #menu {
-        font-size: 20px;
+        font-size: 2rem;
         letter-spacing: 4px;
         
     }
@@ -63,7 +65,7 @@ h3 {
     #beginner-guide h2 {
         text-align: center;
     }
-    #beginner-guide h3 {
+    #beginner-guide h4 {
         text-align: center;
     }
 
@@ -113,13 +115,23 @@ h3 {
     }
     .social-networking a {
         color: #fff;
-        font-size: 80px;
+        font-size: 60px;
         padding: 0px 30px;
         margin-bottom: 30px;
     }
 }
 
 
+/*For sreen sizes Max-Width 990px*/
+
+@media screen and (max-width: 950px) {
+    .home-logo {
+        font-size: 180px;
+        margin-left: 30px;
+
+    }
+}
 
 
-                 /* Web Browser sceen size*/
+
+             
