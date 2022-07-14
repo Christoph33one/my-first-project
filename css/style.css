@@ -26,33 +26,37 @@ h3, h4 {
 }
 
 
+
 /*For Mobile screen sizes Max-Width 575px*/
-@media screen and (max-width: 575px) {
+
     #home-logo  {
         float: left;
-        margin-left: 10px;
+        margin-left: 30px;
     }
     #home-logo h1 {
-        font-size: 5rem;
+        font-size: 4rem;
         color: #FADC3C;   
     }
     
     #menu {
-        font-size: 2rem;
+        font-size: 110%;
         letter-spacing: 4px;
+        line-height: 70px;
         
     }
     #menu li {
-        float: left;
-        clear: both;
-        margin-top: 10px;
-        padding-left: 20px;
+        float: right;
+        list-style: none;
+        margin-right: 30px;
     }
     #menu a {
         text-decoration: none;
-        color: #fff;
+        color: inherit;
+        
     }
-
+    #menu a:hover {
+        border-bottom: 1px solid #3a3a3a;
+    }
     .hero-image {
         width: 100%;
         height: auto;
@@ -61,16 +65,15 @@ h3, h4 {
         width: 100%;
         height: 400px;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-position: center;
+        object-fit: cover;
         margin: 30px 0px;
     }
-    #beginner-guide h2 {
+    
+    .title-images h4 {
         text-align: center;
     }
-    #beginner-guide h4 {
-        text-align: center;
-    }
-
+    /*Text Divider*/
     .text-divider {
         width: 100%;
         height: 2px;
@@ -78,55 +81,52 @@ h3, h4 {
         background-color: white;
         display: inline-block;
     }
+    .title-images {
+        text-align: center;
+        color: #fff;
+    }
+    .stories {
+        width: 40%;
+        float: left;
+        margin-left: 30px;
+        margin-right: 40px;
+        padding: 30px;
+    }
+    .stories img {
+        height: 400px;
+    }
+    .stories a  {
+        text-align: center;
+        text-decoration: none;
+    }
+    
+
     /*these two images need styling correctly, bottom of image iss cut off, maybe try position center!*/
-    .container2 {
-        width: 100%;
-        height: auto;
-    }
-    .travel-img {
-        width: 100%;
-        height: 20rem;
-        background-repeat: no-repeat;
-        object-fit: cover;
-    }
-    .container h2 {
-        text-align: center;
-    }
-    .container p {
-        text-align: center;
-        margin-bottom: 40px;
-    }
-    .food-img {
-        width: 100%;
-        height: 20rem;
-        background-repeat: no-repeat;
-        object-fit: cover;
-    }
-    .container h2 {
-        text-align: center;
-    }
-    .container p {
-        text-align: center;
-        margin-bottom: 40px;
+    footer{
+        height: 150px;
     }
     .social-networking {
         text-align: center;
     }
-    .social-networking li {
-        display: inline-block;
+    .social-networking  li  {
+        display: inline;
     }
-    .social-networking a {
+    .social-networking i {
+        font-size: 4rem;
+        margin: 1%;
+        padding: 5%;
         color: #fff;
-        font-size: 60px;
-        padding: 0px 30px;
-        margin-bottom: 30px;
-    }
-
-    /*About Us Page*/
-
-    .about-image {
-            width: 100%;
-            height: auto;
     }
     
-}
+    ?{
+        text-align: center;
+        clear: both;
+        padding-top: 50px;
+    }
+    ? {
+        text-align: center;
+        padding: 10px 0px;
+        
+    }
+
+    
