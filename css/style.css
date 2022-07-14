@@ -17,12 +17,20 @@ h1, h2 {
     text-transform: uppercase;
     letter-spacing: 4px;
     color: #fff;
+
 }
     /*Text Styling*/
 h3, h4 {
     font-family: Open Sans,sans-serif;
     text-transform: capitalize;
     color: #ffff;
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-family: Open Sans,sans-serif;
+    text-transform: capitalize;
+    color: #fff;
 }
 
 
@@ -32,6 +40,7 @@ h3, h4 {
     #home-logo  {
         float: left;
         margin-left: 30px;
+        
     }
     #home-logo h1 {
         font-size: 4rem;
@@ -41,8 +50,7 @@ h3, h4 {
     #menu {
         font-size: 110%;
         letter-spacing: 4px;
-        line-height: 70px;
-        
+        line-height: 100px;
     }
     #menu li {
         float: right;
@@ -81,6 +89,7 @@ h3, h4 {
         background-color: white;
         display: inline-block;
     }
+    /*for all h2 title images*/
     .title-images {
         text-align: center;
         color: #fff;
@@ -102,6 +111,7 @@ h3, h4 {
     
 
     /*these two images need styling correctly, bottom of image iss cut off, maybe try position center!*/
+
     footer{
         height: 150px;
     }
@@ -118,15 +128,13 @@ h3, h4 {
         color: #fff;
     }
     
-    ?{
-        text-align: center;
+    /* Gallery  Page*/
+
+    #about {
+        margin-left: 30px;
+        margin-top: 50px;
         clear: both;
-        padding-top: 50px;
     }
-    ? {
-        text-align: center;
-        padding: 10px 0px;
-        
-    }
+   
 
     
