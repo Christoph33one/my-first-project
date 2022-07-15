@@ -67,9 +67,7 @@ p {
         border-bottom: 1px solid #3a3a3a;
     }
     /*need to sort out container for images*/
-    .container {
-       
-    }
+    
     .hero-image {
         width: 100%;
         height: auto;
@@ -82,9 +80,15 @@ p {
         object-fit: cover;
         margin: 30px 0px;
     }
-    
-    .title-images h4 {
+    .container {
         text-align: center;
+        color: #fff;
+    
+    }
+    /*CONTAINER FOR ALL TEXT H2 H3 H4*/
+    .container h2, h3, h4 {
+        text-align: center;
+        color: #fff;
     }
     /*Text Divider*/
     .text-divider {
@@ -95,21 +99,14 @@ p {
         display: inline-block;
     }
 
-    /*for all h2 title images*/
-
-    .title-images {
-        text-align: center;
-        color: #fff;
-    }
-   
-    .stories {
+    .image-title {
         width: 40%;
         float: left;
         margin-left: 30px;
         margin-right: 40px;
         padding: 30px;
     }
-    .stories img {
+    .image-title img {
         display: block;
         margin-left: auto;
         margin-right: auto;
@@ -117,7 +114,7 @@ p {
         
         border-radius: 10px;
     }
-    .stories a  {
+    .image-title a  {
         text-align: center;
         text-decoration: none;
     }
