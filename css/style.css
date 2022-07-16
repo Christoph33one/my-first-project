@@ -11,61 +11,82 @@ body {
     color: #fff;
     background-color: #3A383B;
 }
-    /*Main Text Styling for h1, h2, h3 and H4 font size and styles */
 
+    /*DEFAULT TEXT STYLING FOR H1, H2, H3, H4, P */
 h1, h2 {
     font-family: Permanent Marker, sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
-    color: #fff;
-
+    color: #000000;
+    margin: 10px 0px;
 }
-    /*Text Styling*/
 h3, h4 {
     font-family: Open Sans,sans-serif;
     text-transform: capitalize;
-    color: #B0B0BF;
     text-align: center;
+    color: #B0B0BF;
 }
 p {
-    text-align: center;
     font-family: Open Sans,sans-serif;
+    text-align: center;
     text-transform: capitalize;
     color: #fff;
 }
+/*CONTAINER FOR ALL TEXT H2 H3 H4*/
+.container {
+    text-align: center;
+    color: #fff;
+    max-width: 100%;
+    padding: 1rem;
+}
+.container h2, h3, h4 {
+    text-align: center;
+    color: #fff;
+} 
+/*LISTEN PAGE SECTION FOR IMAGES*/
+.section {
+    background-color: #333231;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    max-width: 100%;
+    margin: 5rem auto;
+ }
+
 
 
 
 /*FOR BROSWER SIZE SCREENS*/
 
-    #home-logo  {
+    #main-icon {
         float: left;
-        margin-left: 30px;
+        margin-left: 3rem;
         line-height: 100px;
+        
     }
-    #home-logo h1 {
-        font-size: 4rem;
+    #main-icon h1 {
+        font-size: 5rem;
         color: #66666B;   
     }
     
-    #menu {
+    #nav-menu {
         font-size: 110%;
         letter-spacing: 4px;
-        line-height: 100px;
+        line-height: 8rem;
     }
-    #menu li {
+    #nav-menu li {
         float: right;
         list-style: none;
-        margin-right: 30px;
+        margin-right: 4rem;
     }
-    #menu a {
+    #nav-menu a {
         text-decoration: none;
         color: inherit;
-        
     }
-    #menu a:hover {
-        border-bottom: 1px solid #3a3a3a;
+    #nav-menu a:hover {
+        border-bottom: 2px solid #F0EDF5;
     }
+    
     /*need to sort out container for images*/
     
     .hero-image {
@@ -76,19 +97,8 @@ p {
         width: 100%;
         height: 600px;
         background-repeat: no-repeat;
-        background-position: center;
         object-fit: cover;
         margin: 30px 0px;
-    }
-    .container {
-        text-align: center;
-        color: #fff;
-    
-    }
-    /*CONTAINER FOR ALL TEXT H2 H3 H4*/
-    .container h2, h3, h4 {
-        text-align: center;
-        color: #fff;
     }
     /*Text Divider*/
     .text-divider {
@@ -98,31 +108,28 @@ p {
         background-color: white;
         display: inline-block;
     }
-
-    .image-title {
+    /*LINKS TO LISTEN PAGE */
+    .stories {
         width: 40%;
         float: left;
         margin-left: 30px;
         margin-right: 40px;
         padding: 30px;
     }
-    .image-title img {
+    .stories img {
         display: block;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
-        
         border-radius: 10px;
     }
-    .image-title a  {
+    .stories a  {
         text-align: center;
         text-decoration: none;
     }
     
-
     /*FOOTER SECTION*/
-
-    footer{
+    footer {
         height: 150px;
     }
     .social-networking {
@@ -139,47 +146,46 @@ p {
     }
     
     /* GALLERY.HTML PAGE*/
-
     #about {
         margin-left: 30px;
         margin-top: 50px;
         clear: both;
     }
-
     /*LISTEN.HTML PAGE*/
-
      .section {
         background-color: #333231;
         display: flex;
         justify-content: space-between;
         padding: 40px;
-        width: 100%;
+        max-width: 100%;
         margin: 5rem auto;
      }
      .section img {
-        height: 300px;
+        max-width: 40rem;
+        height: 400px;
         margin-top: 2.5rem;
         border-radius: 8px;
-
-     }
-     .section h2 {
-        text-align: center;
-        margin: 0;
-        color: #fff;
-     }
-    .secction h3 {
-        color: #FADC3C;
-    }
-     
-     .section p {
-        color: #fff;
-        text-align: center;
-        margin-top: 2.5rem;
+        display: block;
      }
      .text h2 {
-        color: #FF4DB9;
+        text-align: center;
+        color: #B50273;
+        margin-top: 40px;
+        padding: 0px 10px;
+    }
+     .text p {
+        color: #fff;
+        text-align: center;
+        margin: 2.5rem 1rem;
+        
+     }
+     a {
+        list-style: none;
+        text-decoration: none;
      }
 
-   
+     a h3 {
+        color: #000000;
+     }
+     
 
-    
