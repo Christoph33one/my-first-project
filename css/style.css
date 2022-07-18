@@ -90,15 +90,17 @@ p {
     /*need to sort out container for images*/
     
     .hero-image {
-        width: 100%;
+        max-width: 100%;
         height: auto;
+   
     }
     img {
         width: 100%;
-        height: 600px;
+        height: 500px;
         background-repeat: no-repeat;
-        object-fit: cover;
+        background-size: cover;
         margin: 30px 0px;
+        
     }
     /*Text Divider*/
     .text-divider {
@@ -135,30 +137,30 @@ p {
     .social-networking {
         text-align: center;
     }
-    .social-networking  li  {
+    .social-networking  li {
         display: inline;
     }
-    .social-networking i {
-        font-size: 4rem;
-        margin: 1%;
-        padding: 5%;
+    .social-networking a {
+        font-size: 3rem;
+        margin: 1rem;
+        padding: 5rem;
         color: #fff;
     }
     
-    /* GALLERY.HTML PAGE*/
+    /* ABOUT PAGE*/
     #about {
         margin-left: 30px;
         margin-top: 50px;
         clear: both;
     }
-    /*LISTEN.HTML PAGE*/
+    /*LISTEN PAGE*/
      .section {
         background-color: #333231;
         display: flex;
         justify-content: space-between;
         padding: 40px;
         max-width: 100%;
-        margin: 5rem auto;
+        margin: 5rem ;
      }
      .section img {
         max-width: 40rem;
@@ -177,7 +179,6 @@ p {
         color: #fff;
         text-align: center;
         margin: 2.5rem 1rem;
-        
      }
      a {
         list-style: none;
@@ -188,4 +189,37 @@ p {
         color: #000000;
      }
      
-
+     /*CONTACT US PAGE*/
+    #form-container {
+    
+       background-color:#B0B0BF;
+       height: 500px;
+       clear: both;
+        text-align: center;
+        padding-top: 100px;
+    }
+   
+    .signup-form  h2 {
+        color: #fafafa;
+        margin-bottom: 20px;
+    }
+    .text-input {
+        color: #fafafa;
+       margin-bottom: 50px;
+    }
+    #find-us {
+        margin-top: 50px;
+        padding: 50px 0px;
+    }
+    #find-us h3 {
+        clear: both;
+        margin-top: 100px;
+        padding-top: 100px;
+    }
+   
+    
+    
+    
+    
+    
+    
