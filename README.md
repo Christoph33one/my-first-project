@@ -1,3 +1,10 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-<h1>test readme file</h1>
+<h1>test list inital commit</h1>
+<ul>
+<li>test</li>
+<li>test</li>
+<li>test</li>
+<li></li>
+<li></li>
+<li></li>
+</ul>
