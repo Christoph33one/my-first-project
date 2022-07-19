@@ -5,9 +5,10 @@
 
 A brief description of what this project does and who it's for
 
+# List of Contents
 
-## Documentation
+<li><a hrfe="#strategy"></a>Strategy</li>
 
-[Documentation](https://linktodocumentation)
+<h1 id="Strategy">Strategy</h1>
 
-<h1 id="Documentation">hello there</h1>
+## Strategy
