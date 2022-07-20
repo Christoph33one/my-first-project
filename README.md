@@ -13,6 +13,7 @@
 <li><a href="#features">Features</a></li>
 <li><a href="#future-features">Future Features</a></li>
 <li><a href="#typography">Typography & Color Scheme</a></li>
+<li><a href="design-structure">Design Structure</a></li>
 <li><a href="#wire-frames">Wireframes</a></li>
 
 # Project Idead
