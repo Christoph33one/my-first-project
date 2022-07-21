@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     border: none;
+    scroll-behavior: smooth;
 }
 body {
     font-family: Permanent Marker, sans-serif;
@@ -35,13 +36,11 @@ p {
 }
 /*CONTAINER FOR ALL TEXT H2 H3 H4*/
 
-.main-container h2, h3, h4 {
+h3, h4 {
     text-align: center;
     color: #fff;
-   
+
 } 
-
-
 /*FOR BROSWER SIZE SCREENS*/
 
     #main-icon {
@@ -80,16 +79,17 @@ p {
     /*need to sort out container for images*/
     
     .hero-image {
+        
         line-height: 50px;
         max-width: 100%;
-        height: auto;
-   
     }
     img {
+        opacity: 0.7;
         width: 100%;
         height: 500px;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-position: center;
+       object-fit: cover;
         margin: 30px 0px;
     }
 
@@ -99,9 +99,9 @@ p {
         font-size: 100%;
         position: absolute;
         top: 160px;
-        left: 50px;
+        left: 30px;
         background-color: black;
-        opacity: 0.6;
+        opacity: 0.5;
         color: white;
         padding-left: 20px;
         padding-right: 20px;
@@ -117,30 +117,32 @@ p {
         background-color: white;
         display: inline-block;
     }
-    .main-container {
+
+    .beginners-guide,  h2 {
         text-align: center;
-        color: #fff;
-        max-width: 100%;
-        padding-bottom: 100px;
     }
     
-    /*LINKS TO LISTEN PAGE */
-    .main-stories {
+    /*container form mian page images and clickable links to listen page*/
+    
+    .main-container {
+        display: flex;
+        max-width: 100%;
+    }
+    .stories {
         width: 40%;
         float: left;
         margin-left: 30px;
         margin-right: 40px;
         padding: 30px;
-        padding-bottom: 50px;
+
     }
-    .main-stories img {
-        display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
-        border-radius: 10px;
+    .stories img {
+        max-height: 400px;
+        border-radius: 8px;
+        object-fit: cover;
+        
     }
-    .main-stories a  {
+    .stories a  {
         text-align: center;
         text-decoration: none;
         clear: both;
@@ -176,39 +178,37 @@ p {
     }
     /*LISTEN PAGE*/
 
-    .page-title, p {
-        clear: both;
-    }
+    
      .section {
-        background-color: #333231;
-        display: flex;
-        justify-content: space-between;
-        padding: 40px;
-        max-width: 100%;
-        margin: 5rem ;
+    clear: both;
+    background-color: #66666B;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
      }
      .section img {
-        max-width: 40rem;
+        object-fit: cover;
+        max-width: 40%;
         height: 400px;
-        margin-top: 2.5rem;
-        border-radius: 8px;
+        padding: 30px 10px;
         display: block;
      }
      .text h2 {
+        text-align: center;
         text-align: center;
         color: #B50273;
         margin-top: 40px;
         padding: 0px 10px;
     }
-     .text p {
-        color: #fff;
+    .text p {
         text-align: center;
-        margin: 2.5rem 1rem;
-        margin-bottom: 50px;
-     }
+        display: grid;
+    }
      a {
         list-style: none;
         text-decoration: none;
+        clear: both;
      }
 
      a h3 {
@@ -266,6 +266,20 @@ p {
         border-radius: 8px;
         font-size: 20px;
     }
+
+    /*media quireys screen for sceen sizes 1200px*/
+
+    @media screen and (max-width: 1200px) 
+
+        
+       
+       
+        
+
+        
+    
+            
+        
     
 
     
@@ -276,7 +290,6 @@ p {
 
 
    
-    
     
     
     

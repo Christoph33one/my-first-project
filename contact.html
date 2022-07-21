@@ -1,91 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head> 
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content=" The Podcast Project is to enjoy listening">
-    <meta name="Keywords" content="The Podcast Project, listen, podcast">
-    <script src="https://kit.fontawesome.com/5605f6cfce.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="css/style.css">
-    <title>The Podcast Project</title>
-</head>
-<body>
-    <Header>
-        <!---HOME PAGE ICON ---> <!--Add srolling home icon!-->
-        <a id="main-icon" href="index.html" class="active"><h1><i class="fas fa-podcast"></i></h1>
-        </a>
+        <head> 
+            <meta charset="UTF-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content=" The Podcast Project is to enjoy listening">
+            <meta name="Keywords" content="The Podcast Project, listen, podcast">
+            <script src="https://kit.fontawesome.com/5605f6cfce.js" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="css/style.css">
+            <title>The Podcast Project</title>
+            </head>
+    <body>
+        <Header>
+                <!--clickable home Icon-->
+                <a id="main-icon" href="index.html" class="active"><h1><i class="fas fa-podcast"></i></h1></a>
+                <!--main nav bar links-->
+            <nav>
+                <ul id="nav-menu">
+                    <li><a href="contact.html" class="active">Sign-Up</a></li>
+                    <li><a href="listen.html">Listen</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                </ul>
+            </nav>
+        </Header>
+            <br>
+            <!--create new website and a link for the submmit form, leave a message in new web page (thanks for signing up!)-->
+            <!--form section-->
+            <section id="form-container">
+                <form method="POST" action="">
+                    <h2>Let's get you signed up!</h2>
+                    <br>
+                    <label for="uname">Username</label>
+                    <input id="uname" type="text" name="user_name" placeholder="username" class="text-input"required>
+                    <br>
+                    <label for="password">Password</label>
+                    <input id="password" type="password" name="psw" placeholder="password" class="text-input"required>
+                    <br>
+                    <label for="emai">Email Address</label>
+                    <input id="email" type ="email" name="email_address" placeholder="email" class="text-input"required>
+                    <br>
+                    <input type="submit" value="sign up!" class="sumbit-button" id="submit-button">
+                    <br>
+                    <input type="reset" value="reset" class="sumbit-button" id="reset-button">
+                </form>
+            </section>
 
-        <!--MAIN NAVAGATION LINKS-->
-        <nav>
-            <ul id="nav-menu">
-                <li><a href="contact.html" class="active">Sign-Up</a></li>
-                <li><a href="listen.html">Listen</a></li>
-                <li><a href="about.html">About Us</a></li>
+                <!--socail media links-->
+
+        <footer>
+            <ul class= "social-networking">
+                <li>
+                <a href="http://facebook.com " target="_blank" rel="noopener"
+                aria-label="Visit out Facebook page (opens a new tab )"><i class="fa-brands fa-facebook-square"></i></a>
+                </li>
+                <li>
+                <a href="http://twitter.com " target="_blank" rel="noopener"
+                aria-label="Visit out Twitter page (opens a new tab )"><i class="fa-brands fa-twitter-square"></i></a>
+                </li>
+                <li>
+                <a href="http://youtube.com " target="_blank" rel="noopener"
+                aria-label="Visit out Youtube page (opens a new tab )" ><i class="fa-brands fa-youtube-square"></i></a>
+                </li>
+                <li>
+                <a href="http://instagram.com " target="_blank" rel="noopener"
+                aria-label="Visit out Instagram page (opens a new tab )" ><i  class="fa-brands fa-instagram"></i></a>
+                </li>
             </ul>
-        </nav>
-    </Header>
-<br>
-<!--create new website and a link for the submmit form, leave a message in new web page (thanks for signing up!)-->
-<section id="form-container">
-<div>
-<form method="POST" action="">
-<h2>Let's get you signed up!</h2>
-</div>
-<div>
-<label for="uname">Username</label>
-<input id="uname" type="text" name="user_name" placeholder="username" class="text-input"required>
-</div>
-<div>
-<label for="password">Password</label>
-
-<input id="password" type="password" name="psw" placeholder="password" class="text-input" required>
-</div>
-<div>
-<label for="emai">Email Address</label>
-
-<input id="email" type ="email" name="email_address" placeholder="email" class="text-input"  required>
-</div>
-<div>
-
-<input type="submit" value="sign up!" class="sumbit-button" id="submit-button"  >
-
-</div>
-<div>
-<input type="reset" value="reset" class="sumbit-button" id="reset-button">
-</div>
-
-</form>
-</section>
-    
- <!--SOCAIL MEDIA NETWORKS-->
- 
- <footer>
-    <ul class= "social-networking">
-        <li>
-            <a href="http://facebook.com " target="_blank" rel="noopener"
-            aria-label="Visit out Facebook page (opens a new tab )"><i class="fa-brands fa-facebook-square"></i></a>
-        </li>
-        <li>
-            <a href="http://twitter.com " target="_blank" rel="noopener"
-            aria-label="Visit out Twitter page (opens a new tab )"><i class="fa-brands fa-twitter-square"></i></a>
-        </li>
-        <li>
-            <a href="http://youtube.com " target="_blank" rel="noopener"
-            aria-label="Visit out Youtube page (opens a new tab )" ><i class="fa-brands fa-youtube-square"></i></a>
-        </li>
-        <li>
-            <a href="http://instagram.com " target="_blank" rel="noopener"
-            aria-label="Visit out Instagram page (opens a new tab )" ><i  class="fa-brands fa-instagram"></i></a>
-        </li>
-        
-    </ul>
-</footer>
-
-
-
-
-
-
-</body>
+        </footer>
+    </body> 
 </html>
