@@ -26,36 +26,40 @@
         </nav>
     </Header>
 <br>
-    
+<!--create new website and a link for the submmit form, leave a message in new web page (thanks for signing up!)-->
 <section id="form-container">
-    <div>
-    <form method="POST" form-action="https://formdump.codeinstitute.net/">
-    <h2>Let's get you signed up!</h2>
+<div>
+<form method="POST" action="">
+<h2>Let's get you signed up!</h2>
 </div>
 <div>
-    <label for="fname">First Name</label>
-    <input id="fname" type="text" name="first_name" required>
+<label for="uname">Username</label>
+<input id="uname" type="text" name="user_name" placeholder="username" class="text-input"required>
 </div>
 <div>
-    <label for="password">Password</label>
-    <input id="password" type="password" name="password" placeholder="password" required>
-</div>
-    <div>
-    <label for="email">Email Address</label>
-    <input id="email" type ="email" name="email_address" required>
-</div>
-<div>
-    <input type="submit" value="sign up!" class="sumbit-button" id="sumbit" >
-</div>
-</form>
-<br>
+<label for="password">Password</label>
 
-<h3 id="find">Find us with the Google Map!</h3>
-<iframe src="https://bit.ly/2QVfkiy ." heigth="100" width="50%">
+<input id="password" type="password" name="psw" placeholder="password" class="text-input" required>
+</div>
+<div>
+<label for="emai">Email Address</label>
+
+<input id="email" type ="email" name="email_address" placeholder="email" class="text-input"  required>
+</div>
+<div>
+
+<input type="submit" value="sign up!" class="sumbit-button" id="submit-button"  >
+
+</div>
+<div>
+<input type="reset" value="reset" class="sumbit-button" id="reset-button">
+</div>
+
+</form>
 </section>
     
  <!--SOCAIL MEDIA NETWORKS-->
-
+ 
  <footer>
     <ul class= "social-networking">
         <li>
@@ -74,6 +78,7 @@
             <a href="http://instagram.com " target="_blank" rel="noopener"
             aria-label="Visit out Instagram page (opens a new tab )" ><i  class="fa-brands fa-instagram"></i></a>
         </li>
+        
     </ul>
 </footer>
 

@@ -7,18 +7,19 @@
 }
 body {
     font-family: Permanent Marker, sans-serif;
-    font-size: 1.6rem;
+    font-size: 170%;
     color: #fff;
     background-color: #3A383B;
+    scroll-behavior: smooth;
 }
 
     /*DEFAULT TEXT STYLING FOR H1, H2, H3, H4, P */
 h1, h2 {
     font-family: Permanent Marker, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
+    letter-spacing: 2%;
     color: #000000;
-    margin: 10px 0px;
+    margin: 5px;
 }
 h3, h4 {
     font-family: Open Sans,sans-serif;
@@ -33,51 +34,40 @@ p {
     color: #fff;
 }
 /*CONTAINER FOR ALL TEXT H2 H3 H4*/
-.container {
+
+.main-container h2, h3, h4 {
     text-align: center;
     color: #fff;
-    max-width: 100%;
-    padding: 1rem;
-}
-.container h2, h3, h4 {
-    text-align: center;
-    color: #fff;
+   
 } 
-/*LISTEN PAGE SECTION FOR IMAGES*/
-.section {
-    background-color: #333231;
-    display: flex;
-    justify-content: space-between;
-    padding: 40px;
-    max-width: 100%;
-    margin: 5rem auto;
- }
-
-
 
 
 /*FOR BROSWER SIZE SCREENS*/
 
     #main-icon {
+        display: flex;
         float: left;
-        margin-left: 3rem;
+        margin-left: 30px;
         line-height: 100px;
         
     }
     #main-icon h1 {
-        font-size: 5rem;
+        font-size: 300%;
         color: #66666B;   
+        clear: both;
     }
     
     #nav-menu {
         font-size: 110%;
-        letter-spacing: 4px;
-        line-height: 8rem;
+        letter-spacing: 20%;
+        line-height: 100px;
+        
     }
     #nav-menu li {
         float: right;
         list-style: none;
         margin-right: 4rem;
+        
     }
     #nav-menu a {
         text-decoration: none;
@@ -90,7 +80,7 @@ p {
     /*need to sort out container for images*/
     
     .hero-image {
-        line-height: 6rem;
+        line-height: 50px;
         max-width: 100%;
         height: auto;
    
@@ -101,20 +91,25 @@ p {
         background-repeat: no-repeat;
         background-size: cover;
         margin: 30px 0px;
-        
     }
-    .text-block {
-        font-size: 1em;
+
+/*The main title of the webpage*/
+
+    .main-title-box {
+        font-size: 100%;
         position: absolute;
-        top: 10rem;
-        left: 3rem;
+        top: 160px;
+        left: 50px;
         background-color: black;
         opacity: 0.6;
         color: white;
         padding-left: 20px;
         padding-right: 20px;
+        border-radius: 8px;
       }
+
     /*Text Divider*/
+
     .text-divider {
         width: 100%;
         height: 2px;
@@ -122,51 +117,68 @@ p {
         background-color: white;
         display: inline-block;
     }
+    .main-container {
+        text-align: center;
+        color: #fff;
+        max-width: 100%;
+        padding-bottom: 100px;
+    }
+    
     /*LINKS TO LISTEN PAGE */
-    .stories {
+    .main-stories {
         width: 40%;
         float: left;
         margin-left: 30px;
         margin-right: 40px;
         padding: 30px;
+        padding-bottom: 50px;
     }
-    .stories img {
-        display: block;
+    .main-stories img {
+        display: flex;
         margin-left: auto;
         margin-right: auto;
         width: 100%;
         border-radius: 10px;
     }
-    .stories a  {
+    .main-stories a  {
         text-align: center;
         text-decoration: none;
-    }
-    
-    /*FOOTER SECTION*/
-    footer {
-        height: 150px;
+        clear: both;
     }
     .social-networking {
         text-align: center;
+        display: flexbox;
+  
     }
     .social-networking  li {
         display: inline;
+      
     }
     .social-networking a {
-        font-size: 3rem;
+        font-size: 170%;
         margin: 1rem;
         padding: 5rem;
         color: #fff;
     }
+
+    /*FOOTER SECTION*/
+
+    footer {
+        height: 150px;
+    }
     
     /* ABOUT PAGE*/
-    #title-about {
+    .page-title {
         position: absolute;
         margin-left: 12rem;
         margin-top: 2rem;
         clear: both;
     }
     /*LISTEN PAGE*/
+
+    .page-title, p {
+        clear: both;
+    }
      .section {
         background-color: #333231;
         display: flex;
@@ -192,6 +204,7 @@ p {
         color: #fff;
         text-align: center;
         margin: 2.5rem 1rem;
+        margin-bottom: 50px;
      }
      a {
         list-style: none;
@@ -202,33 +215,66 @@ p {
         color: #000000;
      }
      
-     /*CONTACT US PAGE*/
+     /*sign up form page*/
+
     #form-container {
-    
-       background-color:#B0B0BF;
-       height: 500px;
-       clear: both;
-        text-align: center;
-        padding-top: 100px;
+    background-color:#B0B0BF;
+    height: 400px;
+    clear: both;
+    text-align: center;
+    margin-bottom: 50px;
+        
     }
    
     .signup-form  h2 {
         color: #fafafa;
         margin-bottom: 20px;
+    
     }
-    .text-input {
-        color: #fafafa;
-       margin-bottom: 50px;
+    input[type=text], input[type=password] {
+        width: 10%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #B50273;
+        border-radius: 8px;
+        box-sizing: border-box;
+      }
+
+      input[type=email] {
+        width: 10%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #B50273;
+        border-radius: 8px;
+        box-sizing: border-box;
+      }
+      
+/* Extra style for the submit button (background-color, border radius) */ 
+
+    #submit-button {
+        width: 8%;
+        background-color: #66666B;
+        border-radius: 8px;
+        font-size: 20px;
     }
-    #find-us {
-        margin-top: 50px;
-        padding: 50px 0px;
+    /* Extra styling for Reset button (background color different from Sumbit button)*/
+    #reset-button {
+        width: 8%;
+        background-color: #F54571;
+        border-radius: 8px;
+        font-size: 20px;
     }
-    #find-us h3 {
-        clear: both;
-        margin-top: 100px;
-        padding-top: 100px;
-    }
+    
+
+    
+
+
+
+
+
+
    
     
     
