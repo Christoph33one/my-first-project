@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
-        <head> 
-            <meta charset="UTF-8">
-            <meta http-equiv="X-UA-Compatible" content="IE=edge">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta name="description" content=" The Podcast Project is to enjoy listening">
-            <meta name="Keywords" content="The Podcast Project, listen, podcast">
-            <script src="https://kit.fontawesome.com/5605f6cfce.js" crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="css/style.css">
-            <title>The Podcast Project</title>
-            </head>
-    <body>
+    <head> 
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content=" The Podcast Project is to enjoy listening">
+        <meta name="Keywords" content="The Podcast Project, listen, podcast">
+        <script src="https://kit.fontawesome.com/5605f6cfce.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css">
+        <title>The Podcast Project</title>
+    </head>
+    <body id="backdrop-image">
         <Header>
-                <!--clickable home Icon-->
-                <a id="main-icon" href="index.html" class="active"><h1><i class="fas fa-podcast"></i></h1></a>
-                <!--main nav bar links-->
-            <nav>
-                <ul id="nav-menu">
-                    <li><a href="contact.html" class="active">Sign-Up</a></li>
-                    <li><a href="listen.html">Listen</a></li>
-                    <li><a href="about.html">About Us</a></li>
+
+            <!--clickable home Icon-->
+
+            <a id="main-icon" href="index.html" class="active"><h1><i class="fas fa-podcast"></i></h1></a>
+            
+            <!--main nav bar links-->
+
+        <nav>
+            <ul id="nav-menu">
+                <li><a href="contact.html" class="active">Sign-Up</a></li>
+                <li><a href="listen.html">Listen</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="index.html">Home</a></li>
                 </ul>
             </nav>
         </Header>
-            <br>
-            <!--create new website and a link for the submmit form, leave a message in new web page (thanks for signing up!)-->
-            <!--form section-->
-            <section id="form-container">
-                <form method="POST" action="">
-                    <h2>Let's get you signed up!</h2>
+        
+        <!--create new website and a link for the submmit form, leave a message in new web page (thanks for signing up!)-->
+        <!--form section-->
+
+        <section id="form-container">
+                <form method="POST" action="????">
+                    <h3>Sign Up</h3><br>
+                    <p>It's quick and easy!</p>
+                    <br>
+                    <label for="fname">First Name</label>
+                    <input id="fname" type="text" name="fname" class="text-input">
+                    <br>
+                    <label for="lname">Last Name</label>
+                    <input id="lname" type="text" name="lname" class="text-input">
                     <br>
                     <label for="uname">Username</label>
                     <input id="uname" type="text" name="user_name" placeholder="username" class="text-input"required>
@@ -43,9 +56,9 @@
                     <br>
                     <input type="reset" value="reset" class="sumbit-button" id="reset-button">
                 </form>
-            </section>
+        </section>
 
-                <!--socail media links-->
+        <!--socail media links-->
 
         <footer>
             <ul class= "social-networking">
