@@ -11,10 +11,10 @@ body {
     font-size: 170%;
     color: #fff;
     background-color: #3A383B;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth; /*need to chech if this works correctly!!*/
 }
 
-    /*DEFAULT TEXT STYLING FOR H1, H2, H3, H4, P */
+    /*DEFAULT TEXT STYLING FOR H1, H2, H3, H4, P ????*/
 h1, h2 {
     font-family: Permanent Marker, sans-serif;
     text-transform: uppercase;
@@ -103,9 +103,10 @@ h3, h4 {
         background-color: black;
       }
 
-    /*Text Divider*/
+    /*Text Divider (Used to create brake lines between text or images. Gives a clean and simple style to the page.) 
+    The text divider only consist's on home page and about us page.)*/
 
-    .text-divider {
+    #text-divider {
         width: 100%;
         height: 2px;
         margin:30px 0px 30px 0px;
@@ -113,7 +114,7 @@ h3, h4 {
         display: inline-block;
     }
 /*section of text below hero image with title (beginners guide)*/
-    .beginners-guide,  h2 {
+    .beginners-guide, h2 {
         text-align: center;
     }
     
@@ -151,7 +152,7 @@ h3, h4 {
     }
 
     /*listen page*/
-/*section for x5 topics containg an image, text and external links*/
+/*section for x5 topics containg an image, text and external links to youtube*/
      .section {
         clear: both;
         max-width: 100%;
@@ -160,7 +161,7 @@ h3, h4 {
         background-color: #66666B;
      }
      .section img {
-        border: solid yellow;
+        border: solid yellow; /*ti indicate conyainer size for styling only!!*/
         height: 400px;
         width: 50%;
         object-fit: cover;
@@ -168,7 +169,7 @@ h3, h4 {
        padding: 20px 10px 20px 10px;
      }
      .text {
-        border: solid white;
+        border: solid white; /*ti indicate conyainer size for styling only!!*/
         width: 50%;
         margin: 20px 20px;
     }
@@ -186,30 +187,27 @@ h3, h4 {
      }
 
      /*sign up form page*/
-
+    /*background imqge only used for form (sign up page!)*/
     #backdrop-image {
         background-image: url('../assets/images/contact-us.webp');
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        
     }
     #form-container {
     padding: 50px;
     margin-left: 50px;
-    border: solid yellow;
     height: 600px;
     width: 600px;
     clear: both;
     text-align:center;
     display: flexbox;
+    border: solid yellow; /*ti indicate conyainer size for styling only!!*/
     }
    
     .signup-form  h2 {
-        clear: both;
         color: #fafafa;
         margin-bottom: 20px;
-
     }
     /*styling for input boxes (first, last, username and passsword)*/
     input[type=text], input[type=password] {
@@ -217,7 +215,7 @@ h3, h4 {
         padding: 12px 20px;
         margin: 8px 0;
         display: inline-block;
-        border: 1px solid #B50273;
+        border: 1px solid #B50273; 
         border-radius: 8px;
         box-sizing: border-box;
       }
