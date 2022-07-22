@@ -267,6 +267,11 @@ h3, h4 {
     footer {
         height: 150px;
     }
+    #copyright p {
+        font-size: 50%;
+        float: left;
+        margin-left: 20px;
+    }
 
     /*media quireys screen for sceen sizes 1200px*/
 
