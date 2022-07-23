@@ -189,10 +189,13 @@ h3, h4 {
      /*sign up form page*/
     /*background imqge only used for form (sign up page!)*/
     #backdrop-image {
-        background-image: url('../assets/images/contact-us.webp');
-        background-position: center;
+        background-image: url('../assets/images/contact\ us\ page.jpg');
+        background-size: contain;
         background-repeat: no-repeat;
-        background-size: cover;
+
+        width: auto;
+     
+    
     }
     #form-container {
     padding: 50px;
@@ -253,13 +256,12 @@ h3, h4 {
         display: flexbox;
     }
     .social-networking li {
-        display: inline-flex;
+        display: inline-block;
+        margin: 5%;
     }
     /*need to solove issue with home page links !!??*/
     .social-networking a {
-        border: solid yellow;
         font-size: 170%;
-        padding: 80px;
         color: #fff;
     }
     
@@ -270,12 +272,19 @@ h3, h4 {
     #copyright p {
         font-size: 50%;
         float: left;
-        margin-left: 20px;
+        margin-left: 5%;
     }
 
-    /*media quireys screen for sceen sizes 1200px*/
+    /*media quireys screen for sceen sizes 750px*/
 
-    @media screen and (max-width: 1200px) 
+    @media screen and (max-width: 750px)
+        .main-title-box {
+            top
+
+            
+        } 
+
+
 
 
         
