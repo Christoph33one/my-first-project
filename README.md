@@ -147,6 +147,25 @@ The Podcast Project is an online plateform, where users can sign up for free and
 
 ---
 
+# Typography 
+
+- All Font family styling was used with an open source - Google Fonts
+https://fonts.google.com/
+
+- Font family used to for H1 & H2 - Permanent Marker "regular 400"
+https://fonts.google.com/specimen/Permanent+Marker?query=perm#standard-styles
+
+- Default setting  - "sans serif"
+
+- Font family used For H3, H4 & P -  Open Sans "light 300"
+https://fonts.google.com/specimen/Open+Sans?query=open+
+
+- Defaul setting - "sans serif"
+
+
+
+
+
 
 # Content
 
