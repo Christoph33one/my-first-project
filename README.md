@@ -5,8 +5,7 @@
 
 # List of Contents
 
-
-## User Experience UX
+# User Experience UX
 <li><a href=#idea>Project Purpose</a></li>
 <li><a href="#user-stories">User Stories</a></li>
 <li><a href="#target-audience">Target Audience</a></li>
@@ -17,8 +16,23 @@
 <li><a href="#wire-frames">Wireframes</a></li>
 <br>
 
+## Features 
+<li><a href="#Clickable Icon">Icon</a></li>
+<li><a href="#nav-bar">Nav Bar</a></li>
+<li><a href="#home-page">Home Page</a></li>
+<li><a href="#images-links">Images & Links</a></li>
+<li><a href="#footer">Footer</a></li>
+<li><a href="#about">About Us</a></li>
+<li><a href="#listen">Listen</a></li>
+<li><a href="#sign-up">Sign Up</a></li>
+<li><a href="#future-features">Future Features</a></li>
+
+---
+
 # The Popdcast Project
-The Podcast Project is an online plateform, where users can sign up for free and explore a world of podcasts. Before signing up, you can get a feel to what Podcasts are available with five sample Podcasts. 
+The Podcast Project is an online plateform, where users can sign up for free and explore a world of podcasts. Before signing up, you can get a feel to what Podcasts are available with five sample Podcasts.
+
+![](readme/url%201.png)
 ---
 # User Stories
 - As a user, I want to be able to understand the basics of  the webpage just by viewing the Homepage. I want to see images that create more than just a picture, to help build the idea behind the webpage itself.
@@ -33,6 +47,7 @@ The Podcast Project is an online plateform, where users can sign up for free and
 ---
 
 # Features 
+
 ### Clickable Icon
 - A clickable homepage logo, which will navigate you back to the top of the Home page, this is designed to give the user a simple but powerful way of getting back to the start of the webpage. This feature has become a common feature in most webapages in modern times. 
 
@@ -46,14 +61,80 @@ The Podcast Project is an online plateform, where users can sign up for free and
 ![nav bar image](readme/url.png)
 
 ---
-# Target Audience
-- The target audience is for anyone who’s inspired by the power listening, this could be for some who’s interests are culture, food, comedy, science , life lessons or wellness. Maybe theres a celebrity or singer that they want to know more about. As for ages groups, it’s towards all ages from 16 and above. Male or female.
+
+### Home-page
+- The header section of the landing page (Homepage) has a background image which covers the full width and 600px height, to create good size image that fits well on all screen sizes. 
+-The image it self is inspired to give the user an idea that this webpsite is about listning and talking. 
+
+![home page image](assets/images/url3.png)
+
 ---
 
+### Images-Links
+- Below the header there are two images and two clickable links under each image. This will navigate the user to the listen page, in which they can view more content. By navagating the user to the listen page, it will push the user to explore more, within the listen page it's self. 
 
-### Home-page images and links
+![two images and links](readme/url%204.png)
 
-- Below the header there are two images and two clickable links under each image. This will navigate the user to the listen page, in which they can view more content. By navagating the user to the listen page, it will push the user to explore more, within the listen page it's self.  
+- For mobile screen sizes of a max-width 575px, the images and links are removed. This is to reduce the amount of information displayed on smaller sizes, as lots of content can be harder to read on this screen size. 
+
+![](readme/url%202.png)
+
+---
+
+### Footer
+
+- The Footer section contains three socail media links and a vidoe media link in whcih shares the as plateform as the sample videos withn the website.
+
+- All four media links match the color scheme to the Nav bar in the header of the webpage. In keeping with the colors from Header to Footer, it will create symmetrical feel to the page.
+
+![](readme/url%206.png)
+
+- At the bottom of all pages, you will find a Copyright symbol and text.
+
+![](readme/url8.png)
+
+---
+### About 
+
+- The About Us page gives the user a brief piece of information on the creators behind the idea. Who they are. It gives the User a trust worthy feel to who manages the website, before entering personal details and siging up
+
+- Styling for the Header is copied from the main Home page, to give. a sense of symmetry and keeping the idea that the website is about listening 
+
+- Below the about us section is the land address of the company, this is also shared to create trust with the website.
+
+![](readme/url7.png)
+
+---
+### Listen
+
+- The Listen page is from where the user will find five Podcast samples to try by just clicking on a link under each explanation of topic. 
+
+- The images (left) will give the user a visual way of knowing what type of topic this will cover. The image are also used to give color to the page. 
+
+- A Brief piece of text (right) along side each image will explain to the user what this topc covers.
+
+- A link description will be added above each clickable link, this gives the user the information as to what and who they will be listening to before clicking.
+
+![](readme/url9.png)
+
+- In mobile screen sizes of a max-width 575px, the listen page will have a new layou, this is to be more user friendly when lookin at the images and text. 
+
+![](readme/url%2010.png)
+
+---
+
+### Sign Up 
+
+- The sign up page is the final page to expore, this gives the user the opertunity to enter personal information and to sign up. 
+
+- Personal details require - First name, last name, user name, password
+
+![](readme/url%2011.png)
+
+- Once the user has entered all information correctly, they will be navigated to a thank you page. This is to give conformation to the user that their personal detials have been sent.
+
+* add thank you page image here!!
+
 ---
 
 # Future Features 
@@ -62,10 +143,32 @@ The Podcast Project is an online plateform, where users can sign up for free and
  
 - Sign-Up and create your own profile.
 
-- Get access to all podcasts and topics.
+- Get full access to all podcasts and topics.
 
-- Get access to extra features
 ---
+
+
+# Content
+
+- Content was taken from Spring Cast  then conscripted in my own words.
+https://springcast.fm/podcast-website/
+
+# Media
+
+- Images where used from an open source - Pixels
+https://www.pexels.com/nl-nl/
+
+
+
+
+
+# Target Audience
+- The target audience is for anyone who’s inspired by the power listening, this could be for some who’s interests are culture, food, comedy, science , life lessons or wellness. Maybe theres a celebrity or singer that they want to know more about. As for ages groups, it’s towards all ages from 16 and above. Male or female.
+---
+
+
+
+
 # Typography 
 - 
 

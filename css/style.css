@@ -257,6 +257,7 @@ p {
         }
     }
 
+
     /* listen page */
 
     /* section for x5 topics containg an image, text and external links to youtube */
@@ -269,6 +270,7 @@ p {
      }
      .section img {
         border: solid yellow; 
+        border-radius: 10px;
         height: 400px;
         width: 50%;
         object-fit: cover;
@@ -278,6 +280,7 @@ p {
      .text {
         display: grid;
         border: solid white;
+        border-radius: 10px;
         width: 50%;
         margin: 20px 20px;
     }
@@ -289,8 +292,13 @@ p {
      .text h2 {
         color: #B50273;
      }
-     a h3 {
+     .text h4 {
+        font-size: 80%;
         color: #000000;
+     }
+     a h3 {
+        font-size: 100%;
+        color: #B50273;
      }
 
      /* for moble screen sizes max-width 575px */
@@ -304,6 +312,12 @@ p {
         .text {
             border: solid #B0B0BF;
             width: fit-content;
+        }
+        .text h3 {
+            font-size: 60%;
+        }
+        .text h4 {
+            font-size: 60%;
         }
         br {
             display: none;
@@ -333,7 +347,8 @@ p {
     clear: both;
     text-align:center;
     display: flexbox;
-    border: solid yellow; 
+    border: solid yellow;
+    border-radius: 10px; 
     }
     .signup-form  h2 {
         color: #fafafa;
