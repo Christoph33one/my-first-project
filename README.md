@@ -2,22 +2,20 @@
 # The Podcast Project
 
 
-
 # List of Contents
-
-# User Experience UX
 <li><a href=#idea>Project Purpose</a></li>
 <li><a href="#user-stories">User Stories</a></li>
 <li><a href="#target-audience">Target Audience</a></li>
-<li><a href="#features">Features</a></li>
 <li><a href="#future-features">Future Features</a></li>
 <li><a href="#typography">Typography & Color Scheme</a></li>
 <li><a href="design-structure">Design Structure</a></li>
 <li><a href="#wire-frames">Wireframes</a></li>
+
+
 <br>
 
-## Features 
-<li><a href="#Clickable Icon">Icon</a></li>
+# Features 
+<li><a href="#icon">Icon</a></li>
 <li><a href="#nav-bar">Nav Bar</a></li>
 <li><a href="#home-page">Home Page</a></li>
 <li><a href="#images-links">Images & Links</a></li>
@@ -48,7 +46,7 @@ The Podcast Project is an online plateform, where users can sign up for free and
 
 # Features 
 
-### Clickable Icon
+### Icon
 - A clickable homepage logo, which will navigate you back to the top of the Home page, this is designed to give the user a simple but powerful way of getting back to the start of the webpage. This feature has become a common feature in most webapages in modern times. 
 
 ![icon image](readme/url2.png)
@@ -180,7 +178,8 @@ https://color.adobe.com/create/color-wheel
 - Home icon - #66666B "medium grey"
 - H3, H4 & Paragraphs - #fff "White"
 - H2 Icons - #B50273 "Pink"
-
+- text borders - #000000 "Balck"
+- Image borders - #D9D2D7 "light grey"
 
 
 
@@ -195,16 +194,27 @@ https://springcast.fm/podcast-website/
 https://www.pexels.com/nl-nl/
 
 
-
-
-
 # Target Audience
 - The target audience is for anyone who’s inspired by the power listening, this could be for some who’s interests are culture, food, comedy, science , life lessons or wellness. Maybe theres a celebrity or singer that they want to know more about. As for ages groups, it’s towards all ages from 16 and above. Male or female.
 ---
 
+# Wire frames 
 
+- An open source was used to design this website - Balsamiq Wireframes:
+https://balsamiq.com/learn/articles/what-are-wireframes/
 
+![](readme/wf%201.png)
 
-# Typography 
-- 
+---
 
+![](readme/wf%202.png)
+
+---
+
+![](readme/wf%203.png)
+
+---
+
+![](readme/wf%204.png)
+
+![](readme/wf%205.png)
