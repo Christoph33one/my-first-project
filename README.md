@@ -27,7 +27,7 @@ The Podcast Project is an online plateform, where users can sign up for free and
 ### Clickable Icon
 - A clickable homepage logo, which will navigate you back to the top of the Home page, this is designed to give the user a simple but powerful way of getting back to the start of the webpage. This feature has become a common feature in most webapages in modern times. 
 
-![sdfd](assets/images/science.jpg)
+![sdfd](assets/images/url2.png)
 
 # Target Audience
 -The target audience is for anyone who’s inspired by the power listening, this could be for some who’s interests are culture, food, comedy, science , life lessons or wellness. Maybe theres a celebrity or singer that they want to know more about. As for ages groups, it’s towards all ages from 16 and above. Male or female.
