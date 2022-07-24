@@ -162,7 +162,24 @@ https://fonts.google.com/specimen/Open+Sans?query=open+
 
 - Defaul setting - "sans serif"
 
+- All Icons are taken from an open source - fontawsome
+https://fontawesome.com/
 
+
+# Colors 
+
+- All colours a are picked using a complementary setting with Adobe Color Wheel. Different shades of Grey are used to give a feeling of warmth throughout the site. This also reduces the brightness of the screen, to be more user friendly with people using contact lenses or glasses. 
+
+- The color Pink is used to breakup some similarities for when needing to click on a link or to highlight an icon. Pink was also picked using adobe color wheel inline with the complementry shades of Grey.
+
+- All colors are taken from an open source - Adobe Colour Wheel
+https://color.adobe.com/create/color-wheel
+
+- Background color for body - #3A383B "Dark Grey"
+- Page tiles and section tiltes -#000000 "Black"
+- Home icon - #66666B "medium grey"
+- H3, H4 & Paragraphs - #fff "White"
+- H2 Icons - #B50273 "Pink"
 
 
 

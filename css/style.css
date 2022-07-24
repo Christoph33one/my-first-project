@@ -269,7 +269,7 @@ p {
         background-color: #66666B;
      }
      .section img {
-        border: solid yellow; 
+        border: solid #D9D2D7; 
         border-radius: 10px;
         height: 400px;
         width: 50%;
@@ -279,7 +279,7 @@ p {
      }
      .text {
         display: grid;
-        border: solid white;
+        border: solid #000000;
         border-radius: 10px;
         width: 50%;
         margin: 20px 20px;
