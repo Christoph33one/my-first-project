@@ -7,7 +7,7 @@
     scroll-behavior: smooth; /* need to chech if this works correctly!! */
 }
 body {
-    font-family: Permanent Marker, sans-serif;
+    font-family: Permanent Marker, sans-serif; 
     font-size: 170%;
     color: #fff;
     background-color: #3A383B;
@@ -18,7 +18,7 @@ body {
 h1, h2 {
     font-family: Permanent Marker, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2%;
+    letter-spacing: 5px;
     color: #000000;
     margin: 5px;
 }
@@ -111,7 +111,7 @@ p {
     /* nav bar (navagation menu) includes four links, home, about us, listen, sign up */
     #nav-menu {
         font-size: 110%;
-        letter-spacing: 20%;
+        letter-spacing: 5px;
         line-height: 100px;
     }
     #nav-menu li {
@@ -244,7 +244,7 @@ p {
         border: solid yellow;
         height: 400px;
         width: 1000%;
-        display: flexbox;
+        justify-content: space-between;
     }
     .about-text-wrapper, p {
         width: 100%;
@@ -304,6 +304,7 @@ p {
         padding: 20px 10px 20px 10px;
      }
      .text {
+        
         display: grid;
         border: solid #000000;
         border-radius: 10px;
@@ -318,6 +319,7 @@ p {
      .text h2 {
         color: #B50273;
      }
+     
      .text h4 {
         font-size: 80%;
         color: #000000;
@@ -359,6 +361,9 @@ p {
         background-repeat: no-repeat;
         height: 100vh;
     }
+    form h3 {
+        margin-top: 50px;
+    }
     label {
         display: inline-block;
         clear: left;
@@ -372,7 +377,6 @@ p {
         width: 600px;
         clear: both;
         text-align:center;
-        display: flexbox;
         border: solid yellow;
         border-radius: 10px; 
         }
@@ -399,14 +403,16 @@ p {
             border: 1px solid #B50273;
             border-radius: 8px;
             box-sizing: border-box;
-          }mit button (background-color, border radius (submit)) */ 
+         }
 
+    /* styling for input boxes (emal) */
     #submit-button {
         width: 15%;
         background-color: #fff;
         border-radius: 8px;
         font-size: 20px;
     }
+
 /* Extra styling for Reset button (background color different (pink)from Sumbit button) */
     #reset-button {
         width: 15%;
@@ -419,7 +425,6 @@ p {
     /* socail network icons and links, facebook, instagram, twitter and youtube */
     .social-networking {
         text-align: center;
-        display: flexbox;
     }
     .social-networking li {
         display: inline-block;
