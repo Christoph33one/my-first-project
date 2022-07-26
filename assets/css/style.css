@@ -449,9 +449,12 @@ p {
     }
     #thanks {
         background-image: url('../images/contact\ us\ page.jpg');
-
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 100vh;
     }
     
+
 
         
        
