@@ -127,6 +127,8 @@ The Podcast Project is an online plateform, where users can sign up for free and
 
 - Personal details require - First name, last name, user name, password
 
+- For design and styling, the Sign Up page uses a background image. This is intented to give the user an idea that this this is separate from the other pages but also by keeping the theme of the webpage. The use of a yellow border is to hight the form more clearly over the bright background image. 
+
 ![](readme/url%2011.png)
 
 - Once the user has entered all information correctly, they will be navigated to a thank you page. This is to give conformation to the user that their personal detials have been sent.

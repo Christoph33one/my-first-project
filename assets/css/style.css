@@ -137,9 +137,9 @@ p {
     /* for mobile screen sizes max-width 575px */
     @media screen and (max-width: 575px) {
         #nav-menu li {
-            text-align: center;
-            font-size: 80%;
-            float: right;
+            text-align: left;
+            font-size: 70%;
+          
             margin-left: 30px;
             margin-right: 40px;
     }
@@ -304,7 +304,7 @@ p {
         padding: 20px 10px 20px 10px;
      }
      .text {
-        
+        justify-content: space-between;
         display: grid;
         border: solid #000000;
         border-radius: 10px;
@@ -447,6 +447,11 @@ p {
         margin-left: 5%;
         margin-bottom: 50px;
     }
+    #thanks {
+        background-image: url('../images/contact\ us\ page.jpg');
+
+    }
+    
 
         
        
