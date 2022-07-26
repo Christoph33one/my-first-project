@@ -15,21 +15,9 @@ body {
 h1, h2 {
     font-family: Permanent Marker, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 5px;
+    letter-spacing: 2%;
     color: #000000;
     margin: 5px;
-}
-/* for tablett scrren sizes max-width 750px*/
-@media screen and (max-width: 750px) {
-    h2 {
-        font-size: 100%;
-    }
-}
-/* for mobile screen sizes max-width 575px */
-@media screen and (max-width: 575px){
-    h2 {
-        font-size: 100%;
-    }
 }
 h3 {
     color: #000000;
@@ -41,37 +29,12 @@ h3, h4 {
     text-align: center;
     color: #fff
 }
-/* for mobile screen sizes max-width 750px*/
-@media screen and (max-width: 750px){
-    h4 {
-        font-size: 80%;
-    }
-}
- /* for mobile screen sizes max-width 575px */
- @media screen and (max-width: 575px) {
-    h4 {
-        font-size: 60%;
-    }
- }
 p {
     font-family: Open Sans,sans-serif;
     text-align: center;
     text-transform: capitalize;
     color: #fff;
 }
-
-    /* for screen sizes max-width 750px */
-@media screen and (max-width:750px) {
-    p {
-        font-size: 80%;
-    } 
-}
- /* for mobile sreen sizes 575px*/
- @media screen and (max-width:575px) {
-    p {
-        font-size: 60%;
-    }
- }
 /* home page */
 /* main icon (clickable icon navagates to home sreen) */
 #main-icon {
@@ -84,18 +47,6 @@ p {
     font-size: 300%;
     color: #66666B;   
     clear: both;
-    }
- /* for browser screen sizes max-width 1200px */
-@media screen and (max-width: 1200px) {
-#main-icon h1 {
-    font-size: 200%;
-        }
-    }
- /* for mobile screen sizes max-width 575px */
-@media screen and (max-width: 575px) {
-     #main-icon h1 {
-        display: none;
-        }
     }
 /* nav bar (navagation menu) includes four links, home, about us, listen, sign up */
 #nav-menu {
@@ -115,22 +66,6 @@ p {
 #nav-menu a:hover {
     border-bottom: 2px solid #F0EDF5;
     }
-
-/* for tablet srceen sizes max-width 750px */
-@media screen and (max-width: 750px) {
-    #nav-menu {
-        font-size: 90%;
-        }
-}
-/* for mobile screen sizes max-width 575px */
-@media screen and (max-width: 575px) {
-#nav-menu li {
-    text-align: left;
-    font-size: 70%;
-    margin-left: 30px;
-    margin-right: 40px;
-     }
-}
 /* hero-image-container, used for styling purposes.  */
 .hero-image-container {
 clear: both;
@@ -155,22 +90,8 @@ padding-left: 20px;
 padding-right: 20px;
 border-radius: 8px;
 opacity: 0.5;
-color: white;
+color: #fff;
 background-color: black;
-}
-/* for browser sceen sizes 1200px */
-@media screen and (max-width: 1200px) {
-    .main-title-box {
-top: 110px;
-    }
-}
-/* for tablet screen sizes 575px */
-@media screen and (max-width: 575px) {
-.main-title-box {
-    font-size: 90%;
-    margin-left: 30%;
-    margin-top: 5%;
-    } 
 }
 /* Text Divider (Used to create brake lines between text or images. Gives a clean and simple style to the page.) 
 The text divider only consist's on home page and about us page.) */
@@ -178,14 +99,13 @@ The text divider only consist's on home page and about us page.) */
     width: 100%;
     height: 2px;
     margin:30px 0px 30px 0px;
-    background-color: white;
+    background-color:#fff;
     display: inline-block;
 }
 /* section of text below hero image with title (beginners guide) */
 .beginners-guide, h2 {
     text-align: center;
 }
-    
 /* container for mian page images and clickable links to listen page */
 .main-container {
     display: flex;
@@ -209,12 +129,6 @@ The text divider only consist's on home page and about us page.) */
     text-decoration: none;
     clear: both;
 }
-/* for mobile screen sizes max-width 575px */
-@media screen and (max-width: 575px) {
-.stories {
-     display: none;
-    }
-}    
 /* about page*/
 
 /* gives page a title above hero image (who are we) */
@@ -248,22 +162,7 @@ The text divider only consist's on home page and about us page.) */
     object-fit: cover;
     object-position: center center;
 }
-/* for tablet srceen sizes max-width 750px */
-@media screen and (max-width: 750px) {
-.page-title {
-    font-size: 60%;
-    margin-top: 10%;
-    }
-}
-/* for mobile screen sizes max-width 575px */
-@media screen and (max-width: 575px) {
-.page-title {
-    display: none;
-    }   
-h3 {
-    font-size: 90%;
-    }
- }
+
 /* listen page */
 /* section for x5 topics containg an image, text and external links to youtube */
 .section {
@@ -274,8 +173,6 @@ h3 {
     background-color: #66666B;
     }
 .section img {
-    border: solid #D9D2D7; 
-    border-radius: 10px;
     height: 400px;
     width: 50%;
     object-fit: cover;
@@ -306,8 +203,184 @@ a {
     font-size: 100%;
     color: #B50273;
     }
- /* for moble screen sizes max-width 575px */
+
+/* sign up form page */
+.background-image {
+    background-image: url('../images/contact\ us\ page.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    }
+form h3 {
+    margin-top: 50px;
+    }
+    label {
+        display: inline-block;
+        clear: left;
+        width: 250px;
+        text-align: right;
+        }
+    #form {
+        display: flex;
+        margin: 50px 30px 50px 30px;
+        height: 600px;
+        width: 600px;
+        clear: both;
+        text-align:center;
+        border: solid yellow;
+        border-radius: 10px; 
+        }
+    .signup-form  h2 {
+        color: #fafafa;
+        margin-bottom: 20px;
+        }
+    /* styling for input boxes (first, last, username and passsword) */
+    input[type=text], input[type=password] {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #B50273; 
+        border-radius: 8px;
+        box-sizing: border-box;
+        }
+    /* styling for input boxes (emal) */
+    input[type=email] {
+        width: 30%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #B50273;
+        border-radius: 8px;
+        box-sizing: border-box;
+        }
+    /* styling for input boxes (emal) */
+    #submit-button {
+        width: 15%;
+        background-color: #fff;
+        border-radius: 8px;
+        font-size: 20px;
+        }
+/* Extra styling for Reset button (background color different (pink)from Sumbit button) */
+#reset-button {
+    width: 20%;
+    background-color: #B50273;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 20px;
+    }
+/* socail network icons and links, facebook, instagram, twitter and youtube */
+.social-networking {
+    text-align: center;
+    clear: both;
+    }
+.social-networking li {
+ 
+    display: inline-block;
+    margin: 5%;
+    }
+/* social network links (facebook, twitter, instagram, youtube) */
+.social-networking a {
+    font-size: 170%;
+    color: #fff;
+    }
+/* footer section */
+footer {
+    height: 150px;
+    }
+/* copy write section*/
+#copyright p {
+    font-size: 50%;
+    }
+/* thank you for signing uo page / final page */
+#thanks {
+    background-image: url('../images/contact\ us\ page.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    }
+    
+/*media quiries*/
+/* for browser screen size max-width 1200px*/
+@media screen and (max-width: 1200px) {
+    .main-title-box {
+    top: 12%;
+    }
+}
+
+/* for tablet screen sizes max-width 750px */
+@media screen and (max-width: 750px) {
+h2 {
+    font-size: 100%;
+    }
+}
+@media screen and (max-width: 750px){
+h4 {
+    font-size: 80%;
+    }
+}
+@media screen and (max-width:750px) {
+    p {
+        font-size: 80%;
+    } 
+}
+@media screen and (max-width: 750px) {
+#nav-menu {
+    font-size: 90%;
+        }
+}
+@media screen and (max-width: 750px) {
+.page-title {
+    font-size: 60%;
+    margin-top: 12%;
+    margin-left: 15%;
+    }
+}
+/* for mobile screen sizes max-width 375px*/
+@media screen and (max-width: 375px){
+h2 {
+    font-size: 100%;
+    }
+}
+@media screen and (max-width: 375px) {
+h4 {
+    font-size: 60%;
+    }
+ }
+ @media screen and (max-width:375px) {
+p {
+    font-size: 60%;
+    }
+ }
+@media screen and (max-width: 375px) {
+#main-icon {
+    display: none;
+    }
+ }
+ @media screen and (max-width: 375px) {
+#nav-menu li {
+    text-align: left;
+    font-size: 70%;
+    float: none;
+    }
+}
 @media screen and (max-width: 575px) {
+.main-title-box {
+    font-size: 90%;
+    margin-left: 40%;
+    } 
+}
+@media screen and (max-width: 375px) {
+.stories {
+    display: none;
+    }
+}
+@media screen and (max-width: 375px) {
+.page-title h3 {   
+    font-size: 90%;
+}
+}
+@media screen and (max-width: 375px) {
 .section {
     display: block; 
     }
@@ -328,106 +401,11 @@ br {
     display: none;
     }
 }
-/* sign up form page */
 
-/* background imqge only used for form (sign up page!) */
-.background-image {
-    background-image: url('../images/contact\ us\ page.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    }
-form h3 {
-    margin-top: 50px;
-    }
-label {
-    display: inline-block;
-    clear: left;
-    width: 250px;
-    text-align: right;
-    }
-#form {
-    display: flex;
-    margin: 50px 30px 50px 30px;
-    height: 600px;
-    width: 600px;
-    clear: both;
-    text-align:center;
-    border: solid yellow;
-    border-radius: 10px; 
-    }
-.signup-form  h2 {
-    color: #fafafa;
-    margin-bottom: 20px;
-    }
-/* styling for input boxes (first, last, username and passsword) */
-input[type=text], input[type=password] {
-    width: 30%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #B50273; 
-    border-radius: 8px;
-    box-sizing: border-box;
-    }
-/* styling for input boxes (emal) */
-input[type=email] {
-    width: 30%;
-    padding: 12px 20px;
-    margin: 8px 0;
-    display: inline-block;
-    border: 1px solid #B50273;
-    border-radius: 8px;
-    box-sizing: border-box;
-    }
-/* styling for input boxes (emal) */
-#submit-button {
-    width: 15%;
-    background-color: #fff;
-    border-radius: 8px;
-    font-size: 20px;
-    }
 
-/* Extra styling for Reset button (background color different (pink)from Sumbit button) */
-#reset-button {
-    width: 15%;
-    background-color: #B50273;
-    color: #fff;
-    border-radius: 8px;
-    font-size: 20px;
-    }
-/* socail network icons and links, facebook, instagram, twitter and youtube */
-.social-networking {
-    text-align: center;
-    }
-.social-networking li {
-    display: inline-block;
-    margin: 5%;
-    }
-/* social network links (facebook, twitter, instagram, youtube) */
-.social-networking a {
-    font-size: 170%;
-    color: #fff;
-    }
-/* footer section */
-footer {
-    height: 150px;
-    }
-/* copy write section*/
-#copyright p {
-    font-size: 50%;
-    float: left;
-    margin-left: 5%;
-    margin-bottom: 50px;
-    }
-/* thank you for signing uo page / final page */
-#thanks {
-    background-image: url('../images/contact\ us\ page.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 100vh;
-    }
-    
+
+
+
 
 
         
