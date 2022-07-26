@@ -171,6 +171,7 @@ The text divider only consist's on home page and about us page.) */
     display: flex;
     box-sizing: border-box;
     background-color: #66666B;
+
     }
 .section img {
     height: 400px;
@@ -307,13 +308,7 @@ footer {
     margin-top: 10%;
 }
     
-/*media quiries*/
-/* for browser screen size max-width 1200px*/
-@media screen and (max-width: 1200px) {
-    .main-title-box {
-    top: 12%;
-    }
-}
+
 
 /* for tablet screen sizes max-width 768px */
 @media screen and (max-width: 768px) {
@@ -321,7 +316,7 @@ h2 {
     font-size: 100%;
     }
 }
-@media screen and (max-width: 768px){
+@media screen and (max-width: 768px) {
 h4 {
     font-size: 80%;
     }
@@ -329,12 +324,12 @@ h4 {
 @media screen and (max-width:768px) {
     p {
         font-size: 80%;
-    } 
+    }
 }
 @media screen and (max-width: 768px) {
 #nav-menu {
     font-size: 90%;
-        }
+    }
 }
 @media screen and (max-width: 768px) {
 .page-title {
@@ -342,9 +337,12 @@ h4 {
     margin-top: 12%;
     margin-left: 15%;
     }
+    .main-title-box {
+        top: 25%;
+    }
 }
 /* for mobile screen sizes max-width 375px*/
-@media screen and (max-width: 375px){
+@media screen and (max-width: 375px) {
 h2 {
     font-size: 100%;
     }
@@ -389,7 +387,7 @@ p {
 }
 @media screen and (max-width: 375px) {
 .section {
-    display: block; 
+    flex-direction: column;
     }
 .section img {
     width: 100%;
