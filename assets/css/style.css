@@ -51,7 +51,7 @@ p {
 /* nav bar (navagation menu) includes four links, home, about us, listen, sign up */
 #nav-menu {
     font-size: 110%;
-    letter-spacing: 5px;
+    letter-spacing: 4%;
     line-height: 100px;
     }
 #nav-menu li {
@@ -293,12 +293,19 @@ footer {
     font-size: 50%;
     }
 /* thank you for signing uo page / final page */
-#thanks {
-    background-image: url('../images/contact\ us\ page.jpg');
+.thankyou-background {
+    background-image: url('../images/thanks-image.webp');
     background-size: cover;
+    background-position: center center;
     background-repeat: no-repeat;
     height: 100vh;
     }
+.thankyou-text {
+    font-size: 150%;
+    color: #fff;
+    float: left;
+    margin-top: 10%;
+}
     
 /*media quiries*/
 /* for browser screen size max-width 1200px*/
@@ -308,28 +315,28 @@ footer {
     }
 }
 
-/* for tablet screen sizes max-width 750px */
-@media screen and (max-width: 750px) {
+/* for tablet screen sizes max-width 768px */
+@media screen and (max-width: 768px) {
 h2 {
     font-size: 100%;
     }
 }
-@media screen and (max-width: 750px){
+@media screen and (max-width: 768px){
 h4 {
     font-size: 80%;
     }
 }
-@media screen and (max-width:750px) {
+@media screen and (max-width:768px) {
     p {
         font-size: 80%;
     } 
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 #nav-menu {
     font-size: 90%;
         }
 }
-@media screen and (max-width: 750px) {
+@media screen and (max-width: 768px) {
 .page-title {
     font-size: 60%;
     margin-top: 12%;
@@ -364,7 +371,7 @@ p {
     float: none;
     }
 }
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 375px) {
 .main-title-box {
     font-size: 90%;
     margin-left: 40%;
@@ -401,31 +408,3 @@ br {
     display: none;
     }
 }
-
-
-
-
-
-
-
-        
-       
-       
-        
-
-        
-    
-            
-        
-    
-
-    
-
-
-
-
-
-
-   
-    
-    
