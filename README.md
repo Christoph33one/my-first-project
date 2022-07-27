@@ -312,6 +312,8 @@ The Podcast project was tested on Preformance, accessibility, best practice and 
 - When validating my html mark up, an error flagged up (header open). The issue was that I had wrapped a h1 elment around an icon. I believed wrapping an icon in a h1 would be the best practice for styling purposes. 
 I researched using W3schools https://www.w3schools.com/ to get an understaning to styling icons in css. To solve this error, I removed the h1 element and left it in it's original anchor tag.
 
+- 
+
 
 
 

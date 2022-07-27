@@ -70,7 +70,7 @@ p {
 .hero-image-container {
 clear: both;
 width: 100%;
-height: 500px;
+display: flex;
 }
 .hero-image-container img {
 width: 100%;
@@ -78,13 +78,14 @@ height: 100%;
 object-fit: cover;
 display: flex;
 object-position: center center;
+background-attachment: fixed;
 }
 
 /* page title (wrapped in a box with styling, set on header hero image & about us page header image) */
 .main-title-box {
 font-size: 100%;
 position: absolute;
-top: 160px;
+top: 25%;
 left: 30px;
 padding-left: 20px;
 padding-right: 20px;
@@ -118,6 +119,7 @@ The text divider only consist's on home page and about us page.) */
     margin-left: 30px;
     margin-right: 40px;
     padding: 30px;
+    
 }
 .stories img {
     max-height: 400px;
@@ -129,14 +131,15 @@ The text divider only consist's on home page and about us page.) */
     text-decoration: none;
     clear: both;
 }
+
 /* about page*/
 
-/* gives page a title above hero image (who are we) */
+/* gives header a title above hero image (who are we) */
 .page-title {
-    font-size: 110%;
+    font-size: 100%;
     position: absolute;
     margin-left: 10%;
-    margin-top: 5%;
+    top: 5%;
 }
 .about-text-wrapper {
     clear: both;
@@ -154,7 +157,6 @@ The text divider only consist's on home page and about us page.) */
 .about-image-container {
     clear: both;
     width: 100%;
-    height: 500px;
 }
 .about-image-container img {
     width: 100%;
@@ -177,8 +179,9 @@ The text divider only consist's on home page and about us page.) */
     height: 400px;
     width: 50%;
     object-fit: cover;
-    display: grid;
-    padding: 20px 10px 20px 10px;
+    display: flex;
+    padding: 20px;
+    con
     }
 .text {
     justify-content: space-between;
@@ -302,14 +305,13 @@ footer {
     height: 100vh;
     }
 .thankyou-text {
-    font-size: 150%;
+    font-size: 120%;
+    margin-left: 5%;
     color: #fff;
     float: left;
     margin-top: 10%;
 }
     
-
-
 /* for tablet screen sizes max-width 768px */
 @media screen and (max-width: 768px) {
 h2 {
@@ -333,15 +335,26 @@ h4 {
 }
 @media screen and (max-width: 768px) {
 .page-title {
-    font-size: 60%;
-    margin-top: 10%;
-    margin-left: 15%;
+    display: none;
     }
     .main-title-box {
         top: 15%;
     }
 }
+.thankyou-text {
+    font-size: 90%;
+}
 /* for mobile screen sizes max-width 375px*/
+@media screen and (max-width: 375) {
+.hero-image-container {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 375px) {
+.about-image-container {
+     height: 100%;
+    }
+}
 @media screen and (max-width: 375px) {
 h2 {
     font-size: 100%;
