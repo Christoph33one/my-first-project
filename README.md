@@ -1,9 +1,8 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 # The Podcast Project
 
-
 # List of Contents
-<li><a href=#idea>Project Purpose</a></li>
+<li><a href="#home-page">Project Purpose</a></li>
 <li><a href="#user-stories">User Stories</a></li>
 <li><a href="#target-audience">Target Audience</a></li>
 <li><a href="#future-features">Future Features</a></li>
@@ -11,11 +10,11 @@
 <li><a href="design-structure">Design Structure</a></li>
 <li><a href="#wire-frames">Wireframes</a></li>
 
-
+---
 <br>
 
 # Features 
-<li><a href="main-page">Home Page</a></li>
+<li><a href="#home-page">Home Page</a></li>
 <li><a href="#icon">Icon</a></li>
 <li><a href="#nav-bar">Nav Bar</a></li>
 <li><a href="#home-page">Home Page</a></li>
@@ -27,20 +26,20 @@
 <li><a href="#future-features">Future Features</a></li>
 
 ---
-
 <br>
 
----
+
 
 # Technologies 
 <li><a href="#testing">Testing</a></li>
+<li><a href="#browser-tests">Browser Tests</a></li>
 <li><a href="#responsive-design">Responsive Design</a></li>
-<li><a></a></li>
-<li><a></a></li>
+<li><a href="#light-house-tests">Lighthouse tests</a></li>
+
 
 
 ---
-# The Popdcast Project
+### Home Page
 The Podcast Project is created to get users interested in listening to Podcasts. This is where users can explore the site and choose five sample podcasts of differet topics before signing up. 
 
 The goal behind the idea, is to get users to sign up for free, this will give them full access to more. 
@@ -111,6 +110,7 @@ The goal behind the idea, is to get users to sign up for free, this will give th
 ![](readme/url8.png)
 
 ---
+
 ### About 
 
 - The About Us page gives the user a brief piece of information on the creators behind the idea. Who they are. It gives the User a trust worthy feel to who manages the website, before entering personal details and siging up
@@ -122,6 +122,7 @@ The goal behind the idea, is to get users to sign up for free, this will give th
 ![](readme/url7.png)
 
 ---
+
 ### Listen
 
 - The Listen page is from where the user will find five Podcast samples to try by just clicking on a link under each explanation of topic. 
@@ -168,6 +169,7 @@ The goal behind the idea, is to get users to sign up for free, this will give th
 
 # Typography 
 
+
 - All Font family styling was used with an open source - Google Fonts
 https://fonts.google.com/
 
@@ -184,10 +186,12 @@ https://fonts.google.com/specimen/Open+Sans?query=open+
 - All Icons are taken from an open source - fontawsome
 https://fontawesome.com/
 
-
+---
 # Colors 
+---
 
-- All colours a are picked using a complementary setting with Adobe Color Wheel. Different shades of Grey are used to give a feeling of warmth throughout the site. This also reduces the brightness of the screen, to be more user friendly with people using contact lenses or glasses. 
+- All colours a are picked using a complementary Shade setting with Adobe Color Wheel. Different shades of Grey are used to give a feeling of warmth throughout the site. This also reduces the brightness of the screen, to be more user friendly with people using contact lenses or glasses. 
+
 
 - The color Pink is used to breakup some similarities for when needing to click on a link or to highlight an icon. Pink was also picked using adobe color wheel inline with the complementry shades of Grey.
 
@@ -202,8 +206,9 @@ https://color.adobe.com/create/color-wheel
 - text borders - #000000 "Balck"
 - Image borders - #D9D2D7 "light grey"
 
+![](readme/adobe%20color%20wheel.png)
 
-
+---
 # Content
 
 - Content was taken from Spring Cast  then conscripted in my own words.
@@ -262,10 +267,55 @@ https://balsamiq.com/learn/articles/what-are-wireframes/
 
 ___
 
+### Browser Tests
+ The Podcast Project has been tested on to two browser 
+ - Google Chrome 
+ -Safari 
+
+ ---
+
 ### Responsive Design 
 
 - The Podcast Project has been tested with it's responsiveness in four screen sizes and devices. These devices are, iphone SE, ipad mini, a latop screen size if 1200px and in a browser screen size. 
 The use of developer tools in Google Chrome where used in the creating and testing of the webistes responsiveness, along with the help of I Am Responsive https://ui.dev/amiresponsive?url=https://christoph33one.github.io/my-first-project/index.html. 
+
+![](readme/responsive%20design.png)
+
+### Light House tests
+The Podcast project was tested on Preformance, accessibility, best practice and SEO through all four pages. 
+
+
+- Home Page
+![](readme/light%20house%201.png)
+
+
+
+- About Us page 
+![](readme/light%20house%202.png)
+
+
+- listen page 
+![](readme/light%20house%203.png)
+
+
+- Sign Up Page 
+![](readme/light%20house%204.png)
+
+### Debugging
+
+- When Building my webpage from a mobile screen to start witjh, I had issues to conten not following its default postions when increasing the screen size to tabelt or browser size. I soon realised that this was going get me to rewrite a lot of css when writing the mark up for media quires. I decided to create my html mark up in browser size first and then add media quires to a small er screeen size. This was an effective method. 
+
+- My first experience with bugs was when adding links to my nav Bar. I had issues using the Ancore tag with a href attribute. Once creating a new page in my file paths, I could not get the two pages link via the Nav bar. My solution was to look back over the Love Running project, to see how the anchor tag worked. From there I added my my own markup and fixed the issue.
+
+- When validating my css mark up, I had erros as to using a % value for letter-spacing. To clear the error, I changed the value tp px.
+
+- When validating my html mark up, an error flagged up (header open). The issue was that I had wrapped a h1 elment around an icon. I believed wrapping an icon in a h1 would be the best practice for styling purposes. 
+I researched using W3schools https://www.w3schools.com/ to get an understaning to styling icons in css. To solve this error, I removed the h1 element and left it in it's original anchor tag.
+
+
+
+
+
 
 
 
