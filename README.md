@@ -15,10 +15,11 @@
 <br>
 
 # Features 
+<li><a href="main-page">Home Page</a></li>
 <li><a href="#icon">Icon</a></li>
 <li><a href="#nav-bar">Nav Bar</a></li>
 <li><a href="#home-page">Home Page</a></li>
-<li><a href="#images-links">Images & Links</a></li>
+<li><a href="#main-content">Main Content</a></li>
 <li><a href="#footer">Footer</a></li>
 <li><a href="#about">About Us</a></li>
 <li><a href="#listen">Listen</a></li>
@@ -31,14 +32,21 @@
 
 ---
 
-# technologies 
+# Technologies 
+<li><a href="#testing">Testing</a></li>
+<li><a href="#responsive-design">Responsive Design</a></li>
+<li><a></a></li>
+<li><a></a></li>
 
-<li><a href="#css-tests">Css testing</a></li>
 
+---
 # The Popdcast Project
-The Podcast Project is an online plateform, where users can sign up for free and explore a world of podcasts. Before signing up, you can get a feel to what Podcasts are available with five sample Podcasts.
+The Podcast Project is created to get users interested in listening to Podcasts. This is where users can explore the site and choose five sample podcasts of differet topics before signing up. 
+
+The goal behind the idea, is to get users to sign up for free, this will give them full access to more. 
 
 ![](readme/url%201.png)
+---
 ---
 # User Stories
 - As a user, I want to be able to understand the basics of  the webpage just by viewing the Homepage. I want to see images that create more than just a picture, to help build the idea behind the webpage itself.
@@ -55,28 +63,31 @@ The Podcast Project is an online plateform, where users can sign up for free and
 # Features 
 
 ### Icon
-- A clickable homepage logo, which will navigate you back to the top of the Home page, this is designed to give the user a simple but powerful way of getting back to the start of the webpage. This feature has become a common feature in most webapages in modern times. 
+- A clickable homepage logo, which is fixed at the top left of all pages. The Icon is clickable and will navigate the user back to the top of the Home page. This is designed to give the user a simple but powerful way of getting back to the start of tthe Home page. The clickable icon has become part of modern standards in most webiste, so by this feature, it keeps within modern designs along with other websites.
 
 ![icon image](readme/url2.png)
 
 ---
 
 ### Nav-Bar
-- Four clickable navigation links (Navagation menu) at the top of all pages. These are intended to navagate the user beyond the Home page and to explore more content that they would like to visit. “(Home About Us, Listen, Sign Up.
+- The Podcast project has four clickable navigation links (Navagation menu) at the top of all pages. These are intended to navagate the user beyond the Home page and to explore more conteent and pages that they would like to visit. These four pages consit of a Home page, an About us page, a Listen page and a Sign up page. The styling of these link within the Nav bar match that of the Footer. This is to add a symmetric design to the webpage. 
 
 ![nav bar image](readme/url.png)
 
 ---
 
 ### Home-page
-- The header section of the landing page (Homepage) has a background image which covers the full width and 600px height, to create good size image that fits well on all screen sizes. 
--The image it self is inspired to give the user an idea that this webpsite is about listning and talking. 
+-
 
+- The header section of the landing page (Homepage) has a Hero-image which covers a full width of 100% and 600px height. The image it self is inspired to show the user what the webpage is about, just by viewing the main image. An alternative text for the image, is placed for users who require a screen reader.
 ![home page image](assets/images/url3.png)
 
 ---
 
-### Images-Links
+### Main Content
+- This part of the main page invites the user to expolre more, by adding a short but brief piece of text, will encourage the user to go beyond the Home page and navigate to the section below.
+
+
 - Below the header there are two images and two clickable links under each image. This will navigate the user to the listen page, in which they can view more content. By navagating the user to the listen page, it will push the user to explore more, within the listen page it's self. 
 
 ![two images and links](readme/url%204.png)
@@ -135,13 +146,13 @@ The Podcast Project is an online plateform, where users can sign up for free and
 
 - Personal details require - First name, last name, user name, password
 
-- For design and styling, the Sign Up page uses a background image. This is intented to give the user an idea that this this is separate from the other pages but also by keeping the theme of the webpage. The use of a yellow border is to hight the form more clearly over the bright background image. 
+- For design and styling, the Sign Up page uses a background image. This is intented to give the user an idea that this  is separate page from the other pages, but also by keeping the theme of the website. The use of a yellow border around the form is to hightligh the information more clearly over the background image. 
 
 ![](readme/url%2011.png)
 
 - Once the user has entered all information correctly, they will be navigated to a thank you page. This is to give conformation to the user that their personal detials have been sent.
 
-* add thank you page image here!!
+![](readme/thank%20you%20page.png)
 
 ---
 
@@ -229,10 +240,10 @@ https://balsamiq.com/learn/articles/what-are-wireframes/
 
 ![](readme/wf%205.png)
 
-# Testing 
+# Technologies
 
-# css validation tests
-- The podcast project has had all html and css markup tested using The W3 css validtor service https://jigsaw.w3.org/css-validator/validator#warnings website. This is enusure all markup is working effectively throughout each web page.
+### Testing
+- The Podcast Project has had all html and css markup tested using The W3 css validtor service https://jigsaw.w3.org/css-validator/validator#warnings website. This is enusure all markup is working effectively throughout each web page.
 
 - Css validtion tests
 ![](readme/css%20validator.png)
@@ -240,10 +251,21 @@ https://balsamiq.com/learn/articles/what-are-wireframes/
 - Home page validtion tests
 ![](readme/Screenshot%202022-07-27%20at%2007.32.56.png)
 
-- about us page validtion tests
+- About us page validtion tests
 ![](readme/about%20validtion.png)
 
-- listen page validation 
-![]()
+- Listen page validation 
+![](readme/listen%20validating.png)
+
+- Sign up page 
+![](readme/sign%20up%20validation.png)
+
+___
+
+### Responsive Design 
+
+- The Podcast Project has been tested with it's responsiveness in four screen sizes and devices. These devices are, iphone SE, ipad mini, a latop screen size if 1200px and in a browser screen size. 
+The use of developer tools in Google Chrome where used in the creating and testing of the webistes responsiveness, along with the help of I Am Responsive https://ui.dev/amiresponsive?url=https://christoph33one.github.io/my-first-project/index.html. 
+
 
 

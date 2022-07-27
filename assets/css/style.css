@@ -334,11 +334,11 @@ h4 {
 @media screen and (max-width: 768px) {
 .page-title {
     font-size: 60%;
-    margin-top: 12%;
+    margin-top: 10%;
     margin-left: 15%;
     }
     .main-title-box {
-        top: 25%;
+        top: 15%;
     }
 }
 /* for mobile screen sizes max-width 375px*/
