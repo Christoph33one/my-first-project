@@ -173,7 +173,6 @@ The text divider only consist's on home page and about us page.) */
     display: flex;
     box-sizing: border-box;
     background-color: #66666B;
-
     }
 .section img {
     height: 400px;
@@ -181,7 +180,6 @@ The text divider only consist's on home page and about us page.) */
     object-fit: cover;
     display: flex;
     padding: 20px;
-    con
     }
 .text {
     justify-content: space-between;
@@ -190,7 +188,7 @@ The text divider only consist's on home page and about us page.) */
     border-radius: 10px;
     width: 50%;
     margin: 20px 20px;
-    }
+}
 a {
     list-style: none;
     text-decoration: none;
