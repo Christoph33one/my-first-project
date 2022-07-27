@@ -27,6 +27,14 @@
 
 ---
 
+<br>
+
+---
+
+# technologies 
+
+<li><a href="#css-tests">Css testing</a></li>
+
 # The Popdcast Project
 The Podcast Project is an online plateform, where users can sign up for free and explore a world of podcasts. Before signing up, you can get a feel to what Podcasts are available with five sample Podcasts.
 
@@ -220,3 +228,12 @@ https://balsamiq.com/learn/articles/what-are-wireframes/
 ![](readme/wf%204.png)
 
 ![](readme/wf%205.png)
+
+# Testing 
+
+# css validation tests
+- The podcast project has been tested using The W3 css validtor service website. This is enusure all mark up on the css is working effectively throughout each web page.
+https://jigsaw.w3.org/css-validator/validator#warnings
+
+# Html testing 
+
