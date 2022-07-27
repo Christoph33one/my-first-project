@@ -232,8 +232,18 @@ https://balsamiq.com/learn/articles/what-are-wireframes/
 # Testing 
 
 # css validation tests
-- The podcast project has been tested using The W3 css validtor service website. This is enusure all mark up on the css is working effectively throughout each web page.
-https://jigsaw.w3.org/css-validator/validator#warnings
+- The podcast project has had all html and css markup tested using The W3 css validtor service https://jigsaw.w3.org/css-validator/validator#warnings website. This is enusure all markup is working effectively throughout each web page.
 
-# Html testing 
+- Css validtion tests
+![](readme/css%20validator.png)
+
+- Home page validtion tests
+![](readme/Screenshot%202022-07-27%20at%2007.32.56.png)
+
+- about us page validtion tests
+![](readme/about%20validtion.png)
+
+- listen page validation 
+![]()
+
 
