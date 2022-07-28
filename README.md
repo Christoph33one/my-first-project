@@ -28,17 +28,17 @@
 ---
 <br>
 
-
-
 # Technologies 
 <li><a href="#testing">Testing</a></li>
 <li><a href="#browser-tests">Browser Tests</a></li>
 <li><a href="#responsive-design">Responsive Design</a></li>
 <li><a href="#light-house-tests">Lighthouse tests</a></li>
 
+# Erros and Debugging
+<li><a href="#debugging">Debugging</a></li>
+<li><a ></a></li>
 
 
----
 ### Home Page
 The Podcast Project is created to get users interested in listening to Podcasts. This is where users can explore the site and choose five sample podcasts of differet topics before signing up. 
 
@@ -282,7 +282,7 @@ The use of developer tools in Google Chrome where used in the creating and testi
 ![](readme/responsive%20design.png)
 
 ### Light House tests
-The Podcast project was tested on Preformance, accessibility, best practice and SEO through all four pages. 
+The Podcast project was tested using Lighouse, In Google developer tools. All page where testen on Preformance, accessibility, best practice and SEO. 
 
 
 - Home Page
@@ -309,10 +309,14 @@ The Podcast project was tested on Preformance, accessibility, best practice and 
 
 - When validating my css mark up, I had erros as to using a % value for letter-spacing. To clear the error, I changed the value tp px.
 
-- When validating my html mark up, an error flagged up (header open). The issue was that I had wrapped a h1 elment around an icon. I believed wrapping an icon in a h1 would be the best practice for styling purposes. 
-I researched using W3schools https://www.w3schools.com/ to get an understaning to styling icons in css. To solve this error, I removed the h1 element and left it in it's original anchor tag.
+- When validating my html mark up, an error flagged up (header open). The issue was that I had wrapped a h1 element around an icon within the header on all pages. I believed wrapping an icon in a h1 would be the best practice for styling purposes in css. Once I had researched through W3schools https://www.w3schools.com/ to get an understanding to adding Icons into the html and what elements to use on them I went back and solved this error, I removed the h1 element and left it in it's original anchor tag, then in my css, I selevted the anchor element for styling aloing with it's class name.
 
-- 
+# Depoyment 
+
+- You will find the repository to The Project Podcast in Github. With the Github plateform, you can create a respoitory file and then link this file to a Gitpod workspace, just by clicking the green button in the top rght hand corner
+
+- The Podcast Project was developed through the Gitpod platform. https://www.gitpod.io/
+
 
 
 
