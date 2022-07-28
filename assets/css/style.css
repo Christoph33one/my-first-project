@@ -206,14 +206,17 @@ a {
     }
 
 /* sign up form page */
-.background-image {
-    background-image: url('../images/contact\ us\ page.jpg');
+.background-image{
+    background-image: url('../images/pexels-davis-sánchez-3916376.jpg');
     background-size: cover;
-
     background-repeat: no-repeat;
+    position: absolute 0 ;
+    background-position: center center;
+    height: 100vh;
+    clear: both;
+  
+}  
 
-
-    }
 .form-box {
     display: grid;
     border: solid #3A383B;
@@ -338,6 +341,7 @@ h4 {
 .thankyou-text {
     font-size: 90%;
 }
+
 /* for mobile screen sizes max-width 375px*/
 @media screen and (max-width: 375) {
 .hero-image-container {
@@ -414,12 +418,14 @@ br {
     }
 }
 @media screen and (max-width: 375px) {
+ .background-image {
+    background-attachment: fixed;
+ }   
 .form-box {
     width: 80vw;
     top: 70vh;
     margin-left: 10%;
     margin-top: 0;
-
 }
 .form-box h1 {
     font-size: 60%;
