@@ -11,6 +11,8 @@ body {
     font-size: 170%;
     color: #fff;
     background-color: #3A383B;
+    min-height: 100vh;
+    width: 100vw;
 }
 h1, h2 {
     font-family: Permanent Marker, sans-serif;
@@ -182,19 +184,22 @@ The text divider only consist's on home page and about us page.) */
     border-radius: 10px;
     width: 50%;
     margin: 20px 20px;
-}
+    }
 a {
     list-style: none;
     text-decoration: none;
     clear: both;
     }
+
  .text h2 {
     color: #B50273;
     } 
+
 .text h4 {
     font-size: 80%;
     color: #000000;
      }
+
      a h3 {
     font-size: 100%;
     color: #B50273;
@@ -210,7 +215,6 @@ a {
     background-position: center center;
     height: 100;
     clear: both;
-  
 }  
 .form-box {
     display: grid;
@@ -230,6 +234,7 @@ form h1 {
     color: #000000;
 }
 label {
+    width: 30%;
     display: inline-block;
     font-family: Open Sans;
     display: inline-block;
@@ -303,6 +308,7 @@ footer {
 h2 {
     font-size: 100%;
     }
+
 h4 {
     font-size: 80%;
     }
@@ -310,7 +316,11 @@ h4 {
     p {
         font-size: 80%;
     }
+label {
+    width: 50%;
+    }
 }
+
 @media screen and (max-width: 768px) {
 #nav-menu {
     font-size: 90%;
@@ -320,7 +330,7 @@ h4 {
     display: none;
     }
     .main-title-box {
-        top: 15%;
+        top: 20%;
     }
 }
 .thankyou-text {
@@ -417,6 +427,7 @@ br {
 
 label {
     font-size: 60%;
+    
     }
 
 #submit-button {
