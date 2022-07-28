@@ -22,7 +22,6 @@ h1, h2 {
 h3 {
     color: #000000;
 }
-/* default sizes and styles for text*/
 h3, h4 {
     font-family: Open Sans,sans-serif;
     text-transform: capitalize;
@@ -36,7 +35,6 @@ p {
     color: #fff;
 }
 /* home page */
-/* main icon (clickable icon navagates to home sreen) */
 #main-icon {
     display: flex;
     float: left;
@@ -48,7 +46,6 @@ p {
     color: #66666B;   
     clear: both;
     }
-/* nav bar (navagation menu) includes four links, home, about us, listen, sign up */
 #nav-menu {
     font-size: 110%;
     letter-spacing: 4px;
@@ -66,7 +63,6 @@ p {
 #nav-menu a:hover {
     border-bottom: 2px solid #F0EDF5;
     }
-/* hero-image-container, used for styling purposes.  */
 .hero-image-container {
 clear: both;
 width: 100%;
@@ -81,7 +77,6 @@ object-position: center center;
 background-attachment: fixed;
 }
 
-/* page title (wrapped in a box with styling, set on header hero image & about us page header image) */
 .main-title-box {
 font-size: 100%;
 position: absolute;
@@ -94,6 +89,7 @@ opacity: 0.5;
 color: #fff;
 background-color: black;
 }
+
 /* Text Divider (Used to create brake lines between text or images. Gives a clean and simple style to the page.) 
 The text divider only consist's on home page and about us page.) */
 .text-divider {
@@ -103,11 +99,11 @@ The text divider only consist's on home page and about us page.) */
     background-color:#fff;
     display: inline-block;
 }
-/* section of text below hero image with title (beginners guide) */
+
 .beginners-guide, h2 {
     text-align: center;
 }
-/* container for mian page images and clickable links to listen page */
+
 .main-container {
     display: flex;
     max-width: 100%;
@@ -121,6 +117,7 @@ The text divider only consist's on home page and about us page.) */
     padding: 30px;  
 }
 .stories img {
+    width: 80%;
     max-height: 400px;
     border-radius: 8px;
     object-fit: cover;
@@ -133,26 +130,12 @@ The text divider only consist's on home page and about us page.) */
 
 /* about page*/
 
-/* gives header a title above hero image (who are we) */
 .page-title {
     font-size: 100%;
     position: absolute;
     margin-left: 10%;
     top: 5%;
 }
-.about-text-wrapper {
-    clear: both;
-    border: solid yellow;
-    height: 400px;
-    width: 1000%;
-    justify-content: space-between;
-}
-.about-text-wrapper, p {
-    width: 100%;
-    height: 80%;
-    text-align: center;
-    }
-/* about-image-container, used for styling purposes */
 .about-image-container {
     clear: both;
     width: 100%;
@@ -163,9 +146,21 @@ The text divider only consist's on home page and about us page.) */
     object-fit: cover;
     object-position: center center;
 }
+.about-text-wrapper {
+    clear: both;
+    height: 400px;
+    border: solid #B0B0BF;
+    border-radius: 8px;
+}
+.about-text-wrapper, p {
+    width: 100%;
+    height: 80%;
+    text-align: center;
+    justify-content: space-between;
+    }
 
 /* listen page */
-/* section for x5 topics containg an image, text and external links to youtube */
+
 .section {
     clear: both;
     max-width: 100%;
@@ -206,17 +201,17 @@ a {
     }
 
 /* sign up form page */
+
 .background-image{
     background-image: url('../images/pexels-davis-sánchez-3916376.jpg');
     background-size: cover;
     background-repeat: no-repeat;
-    position: absolute 0 ;
+    position: absolute 0 0 ;
     background-position: center center;
-    height: 100vh;
+    height: 100;
     clear: both;
   
 }  
-
 .form-box {
     display: grid;
     border: solid #3A383B;
@@ -255,14 +250,12 @@ input[type=text], input[type=email], input[type=password] {
     border-radius: 8px;
     box-sizing: border-box;
     }
-    /* submit button (email) */
 #submit-button {
     width: 20%;
     background-color: #fff;
     border-radius: 8px;
     font-size: 50%;
 }
-/* Reset button (background color (#b40273) different from submit button  */
 #reset-button {
     width: 20%;
     background-color: #B50273;
@@ -270,22 +263,18 @@ input[type=text], input[type=email], input[type=password] {
     border-radius: 8px;
     font-size: 20px;
     }
-/* socail network icons and links, facebook, instagram, twitter and youtube */
 .social-networking {
     text-align: center;
     clear: both;
     }
 .social-networking li {
- 
     display: inline-block;
     margin: 5%;
     }
-/* social network links (facebook, twitter, instagram, youtube) */
 .social-networking a {
     font-size: 170%;
     color: #fff;
     }
-/* footer section */
 footer {
     height: 150px;
     }
@@ -293,7 +282,7 @@ footer {
 #copyright p {
     font-size: 50%;
     }
-/* thank you for signing uo page / final page */
+/* thank you for signing up / final page */
 .thankyou-background {
     background-image: url('../images/thanks-image.webp');
     background-size: cover;
@@ -314,13 +303,10 @@ footer {
 h2 {
     font-size: 100%;
     }
-}
-@media screen and (max-width: 768px) {
 h4 {
     font-size: 80%;
     }
-}
-@media screen and (max-width:768px) {
+
     p {
         font-size: 80%;
     }
@@ -329,8 +315,7 @@ h4 {
 #nav-menu {
     font-size: 90%;
     }
-}
-@media screen and (max-width: 768px) {
+
 .page-title {
     display: none;
     }
@@ -352,41 +337,34 @@ h4 {
 .about-image-container {
      height: 100%;
     }
-}
-@media screen and (max-width: 375px) {
+
 h2 {
     font-size: 100%;
     }
-}
-@media screen and (max-width: 375px) {
+
 h4 {
     font-size: 60%;
     }
- }
- @media screen and (max-width:375px) {
+ 
 p {
     font-size: 60%;
     }
- }
-@media screen and (max-width: 375px) {
+ 
 #main-icon {
     display: none;
     }
- }
-@media screen and (max-width: 375px) {
+ 
 #nav-menu li {
     text-align: left;
     font-size: 70%;
     float: none;
     }
-}
-@media screen and (max-width: 375px) {
+
 .main-title-box {
     font-size: 90%;
     margin-left: 40%;
     } 
-}
-@media screen and (max-width: 375px) {
+
 .stories {
     display: none;
     }
@@ -395,32 +373,38 @@ p {
 .page-title h3 {   
     font-size: 90%;
 }
-}
-@media screen and (max-width: 375px) {
+
 .section {
     flex-direction: column;
     }
+
 .section img {
     width: 100%;
     }
+
 .text {
     border: solid #B0B0BF;
     width: fit-content;
     }
+
 .text h3 {
     font-size: 60%;
     }
+
 .text h4 {
     font-size: 60%;
     }
+
 br {
     display: none;
     }
 }
+
 @media screen and (max-width: 375px) {
  .background-image {
     background-attachment: fixed;
  }   
+
 .form-box {
     width: 80vw;
     top: 70vh;
@@ -430,9 +414,11 @@ br {
 .form-box h1 {
     font-size: 60%;
     }
+
 label {
     font-size: 60%;
     }
+
 #submit-button {
     font-size: 40%;
     display: flex;
@@ -440,23 +426,25 @@ label {
     width: 40%;
     padding-left: 10%;
     }
+
 #reset-button {
     font-size: 50%;
     display: flex;
     width: 40%;
     padding-left: 10%;
     }
+
 input[type=text], input[type=password] {
     width: 60%;
     height: 5%;
     }
+
 input[type=email] {
     width: 40%;
     height: 0;
     display: inline-block;
     }    
-}
-@media screen and (max-width: 375px) {
+
     .background-image {
        background-attachment: fixed;
     }
