@@ -183,7 +183,7 @@ https://fonts.google.com/specimen/Open+Sans?query=open+
 
 - Defaul setting - "sans serif"
 
-- All Icons are taken from an open source - fontawsome
+- All Icons are taken from an open source - Fontawsome
 https://fontawesome.com/
 
 ---
@@ -301,8 +301,9 @@ The Podcast project was tested using Lighouse, In Google developer tools. All pa
 - Sign Up Page 
 ![](readme/light%20house%204.png)
 
-### Debugging
+---
 
+### Debugging
 - When Building my webpage from a mobile screen to start witjh, I had issues to conten not following its default postions when increasing the screen size to tabelt or browser size. I soon realised that this was going get me to rewrite a lot of css when writing the mark up for media quires. I decided to create my html mark up in browser size first and then add media quires to a small er screeen size. This was an effective method. 
 
 - My first experience with bugs was when adding links to my nav Bar. I had issues using the Ancore tag with a href attribute. Once creating a new page in my file paths, I could not get the two pages link via the Nav bar. My solution was to look back over the Love Running project, to see how the anchor tag worked. From there I added my my own markup and fixed the issue.
@@ -311,11 +312,27 @@ The Podcast project was tested using Lighouse, In Google developer tools. All pa
 
 - When validating my html mark up, an error flagged up (header open). The issue was that I had wrapped a h1 element around an icon within the header on all pages. I believed wrapping an icon in a h1 would be the best practice for styling purposes in css. Once I had researched through W3schools https://www.w3schools.com/ to get an understanding to adding Icons into the html and what elements to use on them I went back and solved this error, I removed the h1 element and left it in it's original anchor tag, then in my css, I selevted the anchor element for styling aloing with it's class name.
 
+---
+
 # Depoyment 
 
-- You will find the repository to The Project Podcast in Github. With the Github plateform, you can create a respoitory file and then link this file to a Gitpod workspace, just by clicking the green button in the top rght hand corner
+- You will find the repository to The Project Podcast in Github. With the Github plateform, you can create a respoitory file and then link this file to a Gitpod workspace, then just by clicking the green button in the top right hand corner of the page.
+https://www.gitpod.io/
 
-- The Podcast Project was developed through the Gitpod platform. https://www.gitpod.io/
+![](readme/git%20pod%20repo.png)
+
+# Credits
+
+- All images where taken from Pixels https://www.pexels.com/
+
+- The layout of colors are picked using the complementary shade selector with Adobe Color Wheel https://color.adobe.com/create/color-wheel
+
+- All font familys are picked with Google Fonts https://fonts.google.com/
+
+- The Icons used where located through Fontsawsome https://fontawesome.com/v5/search
+
+
+
 
 
 
