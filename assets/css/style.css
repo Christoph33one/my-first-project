@@ -296,7 +296,7 @@ footer {
 }
 
 /* for tablet screen sizes max-width 768px */
-@media screen and (max-width: 768px) {
+@media (min-width: 500px) and (max-width:768px)  {
 h2 {
     font-size: 100%;
     }
@@ -313,7 +313,7 @@ label {
     }
 }
 
-@media screen and (max-width: 768px) {
+@media (min-width: 500px) and (max-width:768px) {
 #nav-menu {
     font-size: 90%;
     }
@@ -335,7 +335,7 @@ label {
 }
 
 /* for screen sizes max-width 500px*/
-@media screen and (max-width: 500px) {
+@media (min-width: 375px) and (max-width: 500px) {
 #main-icon {
         display: none;
         }
@@ -381,17 +381,13 @@ label {
     
 }
 
-
-
-
-
 /* for mobile screen sizes max-width 375px*/
-@media screen and (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 500px) {
 .hero-image-container {
         height: 400px;
     }
 }
-@media screen and (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 500px) {
 .about-image-container {
      height: 100%;
     }
@@ -421,15 +417,16 @@ p {
 .main-title-box {
     font-size: 90%;
     margin-left: 40%;
+    display: none;
     } 
 
 .stories {
     display: none;
     }
 }
-@media screen and (max-width: 375px) {
-.page-title h3 {   
-    font-size: 90%;
+@media (min-width: 375px) and (max-width: 500px) {
+.page-title {   
+    display: none;
 }
 
 .section {
@@ -458,7 +455,7 @@ br {
     }
 }
 
-@media screen and (max-width: 375px) {
+@media (min-width: 375px) and (max-width: 500px) {
  .background-image {
     background-attachment: fixed;
  }   
