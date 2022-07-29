@@ -1,6 +1,9 @@
 ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 # The Podcast Project
 
+The Podcast Project is an online platform, where users can sign up for free and explore a world of podcasts. Before signing up, you can get a feel of the Podcast Project with five sample podcasts.
+
+
 # List of Contents
 <li><a href="#home-page">Project Purpose</a></li>
 <li><a href="#user-stories">User Stories</a></li>
@@ -32,59 +35,64 @@
 <li><a href="#responsive-design">Responsive Design</a></li>
 <li><a href="#light-house-tests">Lighthouse tests</a></li>
 
-# Erros and Debugging
+---
+
+# Errors and Debugging
 <li><a href="#debugging">Debugging</a></li>
-<li><a ></a></li>
+- need to add content here !!!!!!
+
+---
 
 ### Home Page
-The Podcast Project is created to get users interested in listening to Podcasts. This is where users can explore the site and choose five sample podcasts of differet topics before signing up. 
-
-The goal behind the idea, is to get users to sign up for free, this will give them full access to more. 
-
+- The header section of the landing page (homepage) has a background image which covers the full width and 600px height, to create good size image that fits well on all screen sizes.
+-The image it self is inspired to give the user an idea that this website is about listning and talking.
+ 
 ![](readme/url%201.png)
+
 ---
----
+
 # User Stories
-- As a user, I want to be able to understand the basics of  the webpage just by viewing the Homepage. I want to see images that create more than just a picture, to help build the idea behind the webpage itself.
+- As a user, I want to be able to understand the basics of the webpage just by viewing the homepage. I want to see images that are more than just a image, images that help building an idea behind the webpage itself.
 
-- When reading text, I want a short but brief paragraph, which is easy to follow and understand (Quick and simple)
+- When reading the text, I want a short but brief paragraph, which is easy to follow and understand.
 
-- I want to be able to navigate easily thought the Links and pages, to find what I am interested in and to also navigate back to the Homepage simply.
+- I want to be able to navigate easily thought the links and pages, to find what I am interested in and navigate back to the homepage.
 
--  When browsing the free sample podcasts, I want to it to be quick and easy for me as the user, also to get a feel of what more can be offered if I was to sign up.
+-  I want to have access to free sample podcasts, to get a feel of what more can be offered if I was to sigh up.
 
-- When signing up for free, I want to be able to understand the form layout simply and have conformation that I have signed up correctly, with a message.
+- To be able to sigh up for free, to understand the form layout and have conformation that I have signed up correctly.
+
 ---
 
 # Features 
 
 ### Icon
-- A clickable homepage logo, which is fixed at the top left of all pages. The Icon is clickable and will navigate the user back to the top of the Home page. This is designed to give the user a simple but powerful way of getting back to the start of tthe Home page. The clickable icon has become part of modern standards in most webiste, so by this feature, it keeps within modern designs along with other websites.
+- A clickable homepage logo, which is fixed at the top left of all pages. The icon is clickable and will navigate the user back to the top of the homepage. This is designed to give the user a simple but powerful way of getting back to the start of the homepage. Clickable icon has become part of modern standards in most websites, so by this feature, it keeps within modern designs.
 
 ![icon image](readme/url2.png)
 
 ---
 
 ### Nav-Bar
-- The Podcast project has four clickable navigation links (Navagation menu) at the top of all pages. These are intended to navagate the user beyond the Home page and to explore more conteent and pages that they would like to visit. These four pages consit of a Home page, an About us page, a Listen page and a Sign up page. The styling of these link within the Nav bar match that of the Footer. This is to add a symmetric design to the webpage. 
+- The Podcast Project has four clickable navigation links (navigation menu) at the top of all pages. These are intended to navigate the user across the webpage to explore more content and pages that they would like to visit. These four pages consist of a homepage, an about us page, a listen page and a sign up page. The styling of these links in the header, matches that of the footer.
 
-![nav bar image](readme/url.png)
+![nav bar image](readme/nav%20bar%20.png)
 
 ---
 
 ### Home-page
--
-
 - The header section of the landing page (Homepage) has a Hero-image which covers a full width of 100% and 600px height. The image it self is inspired to show the user what the webpage is about, just by viewing the main image. An alternative text for the image, is placed for users who require a screen reader.
+
 ![home page image](assets/images/url3.png)
 
 ---
 
 ### Main Content
-- This part of the main page invites the user to expolre more, by adding a short but brief piece of text, will encourage the user to go beyond the Home page and navigate to the section below.
+- This part of the main page invites the user to explore more by adding a short but brief piece of text. It will encourage the user to go beyond the homepage and navigate to the section below.
 
+- Below the header there are two images and two clickable links under each image. This will navigate the user to the listen page, in which they can view more content. Navigating the user to the listen page will help user to explore more within the listen page itself.
 
-- Below the header there are two images and two clickable links under each image. This will navigate the user to the listen page, in which they can view more content. By navagating the user to the listen page, it will push the user to explore more, within the listen page it's self. 
+- For mobile screen sizes of a max-width 375px, the images and links are removed. This is to reduce the amount of information displayed on smaller sizes as lots of content can be harder to read on this screen 
 
 ![two images and links](readme/url%204.png)
 
@@ -95,7 +103,6 @@ The goal behind the idea, is to get users to sign up for free, this will give th
 ---
 
 ### Footer
-
 - The Footer section contains three socail media links and a vidoe media link in whcih shares the as plateform as the sample videos withn the website.
 
 - All four media links match the color scheme to the Nav bar in the header of the webpage. In keeping with the colors from Header to Footer, it will create symmetrical feel to the page.
@@ -109,44 +116,37 @@ The goal behind the idea, is to get users to sign up for free, this will give th
 ---
 
 ### About 
+- The about us page gives the user a brief piece of information on the creators behind the idea. Who they are. It creates a trustworthy feel on management of the website before entering personal details and signing up.
 
-- The About Us page gives the user a brief piece of information on the creators behind the idea. Who they are. It gives the User a trust worthy feel to who manages the website, before entering personal details and siging up
-
-- Styling for the Header is copied from the main Home page, to give. a sense of symmetry and keeping the idea that the website is about listening 
+- Styling for the header is copied from the main homepage to provide a sense of symmetry and keeping the idea that the website is about listening.
 
 - Below the about us section is the land address of the company, this is also shared to create trust with the website.
+
 
 ![](readme/url7.png)
 
 ---
 
 ### Listen
+- The listen page is where the user will find five podcast samples to try out by just clicking on a link under each explanation of a topic.
 
-- The Listen page is from where the user will find five Podcast samples to try by just clicking on a link under each explanation of topic. 
+- The images (left) will give the user a visual way of knowing what type of topic this will cover. Images are also used to give colour to the page.
 
-- The images (left) will give the user a visual way of knowing what type of topic this will cover. The image are also used to give color to the page. 
+- A brief piece of text (right) along side each image will explain to the user what this topic covers.
 
-- A Brief piece of text (right) along side each image will explain to the user what this topc covers.
+- A link description added above each clickable link will give the user information on what and who they will be listening to before clicking.
 
-- A link description will be added above each clickable link, this gives the user the information as to what and who they will be listening to before clicking.
-
-![](readme/url9.png)
-
-- In mobile screen sizes of a max-width 575px, the listen page will have a new layou, this is to be more user friendly when lookin at the images and text. 
-
+- In mobile screen sizes of a max-width 575px, the listen page will have a new layout, this is to be more user friendly when lookin at the images and text.
 ![](readme/url%2010.png)
 
 ---
 
 ### Sign Up 
+- The sign up page is the final page to explore, this page gives the user an opportunity to enter personal information and sign up.
 
-- The sign up page is the final page to expore, this gives the user the opertunity to enter personal information and to sign up. 
+- Personal details required - first name, last name, user name, password
 
-- Personal details require - First name, last name, user name, password
-
-- For design and styling, the Sign Up page uses a background image. This is intented to give the user an idea that this  is separate page from the other pages, but also by keeping the theme of the website. The use of a yellow border around the form is to hightligh the information more clearly over the background image. 
-
-![](readme/url%2011.png)
+- For design and styling, the sign up page uses a background image. It is intended to give the user an idea that this is separate from the other pages but also keeping the theme of the website. The use of a yellow border is to highlight the form more clearly over the bright background image.
 
 - Once the user has entered all information correctly, they will be navigated to a thank you page. This is to give conformation to the user that their personal detials have been sent.
 
@@ -155,19 +155,16 @@ The goal behind the idea, is to get users to sign up for free, this will give th
 ---
 
 # Future Features 
-
-- Sign-up and explore the full webpage. 
+- Sign up and explore the full webpage.
  
-- Sign-Up and create your own profile.
+- Sign up and create your own profile.
 
 - Get full access to all podcasts and topics.
 
 ---
 
 # Typography 
-
-
-- All Font family styling was used with an open source - Google Fonts
+- All font family styling was used with an open source - Google Fonts
 https://fonts.google.com/
 
 - Font family used to for H1 & H2 - Permanent Marker "regular 400"
@@ -176,55 +173,47 @@ https://fonts.google.com/specimen/Permanent+Marker?query=perm#standard-styles
 - Default setting  - "sans serif"
 
 - Font family used For H3, H4 & P -  Open Sans "light 300"
-https://fonts.google.com/specimen/Open+Sans?query=open+
 
 - Defaul setting - "sans serif"
 
-- All Icons are taken from an open source - Fontawsome
+- All Icons are taken from an open source - fontawesome
 https://fontawesome.com/
 
 ---
 # Colors 
----
+- All colours are picked using a complementary setting with Adobe Color Wheel. Different shades of grey are used to give a feeling of warmth throughout the site. This also reduces the brightness of the screen, to be more user friendly with people using contact lenses or glasses.
 
-- All colours are picked using a complementary Shade setting within Adobe Color Wheel. Different shades of Grey are used to give a feeling of warmth throughout the site. This also reduces the brightness of the backgorund color, to be more user friendly with people using contact lenses ,glasses or sensitive eye sight. 
+- The colour pink is used to breakup some similarities for when needing to click on a link or to highlight an icon. Pink was also picked using Adobe Color Wheel inline with complimentary shades of grey.
 
-
-- The color Pink ( #B50273 ) is used to breakup some similarities for when needing to click on a link or to highlight an icon. Pink was also picked using adobe color wheel inline with the complementry shades of Grey.
-
-- All colors are taken from an open source - Adobe Colour Wheel
+- All colours are taken from an open source - Adobe Colour Wheel
 https://color.adobe.com/create/color-wheel
 
-- Background color for body - #3A383B "Dark Grey"
-- Page titles and section tiltes -#000000 "Black"
+- Background colour for body - #3A383B "dark grey"
+- Page titles and section titles -#000000 "black"
 - Home icon - #66666B "medium grey"
-- Nav bar & Footer - #fff "White"
-- H2 Icons - #B50273 "Pink"
-- H3, H4 & Paragraphs - #fff "White"
-- Text & Form borders - #000000 "Black"
+- H3, H4 & Paragraphs - #fff "white"
+- H2 Icons - #B50273 "pink"
+- text borders - #000000 "black"
+- Image borders - #D9D2D7 "light grey"
 
 ![](readme/adobe%20color%20wheel.png)
 
 ---
 # Content
-
-- Content for The Podcast Project was taken from Spring Cast then conscripted in my own words.
+- Content was taken from Spring Cast  then conscripted in my own words.
 https://springcast.fm/podcast-website/
 
 # Media
-
-- Images are used from an open source - Pixels
+- Images where used from an open source - Pixels
 https://www.pexels.com/nl-nl/
 
 
 # Target Audience
-- The target audience is for anyone who’s inspired by the power listening, this could be for some who’s interests are culture, food, comedy, science , life lessons or wellness. Maybe theres a celebrity or singer that they want to know more about. As for ages groups, it’s towards all ages from 16 and above. Male or female.
+- The target audience is anyone who is inspired by the power of listening, this could be for some who’s interests are culture, food, comedy, science , life lessons or wellness. Maybe there is a celebrity or a singer that they want to know more about. As for age groups, it is towards all ages from 16 and above. Male or female.
 ---
 
 # Wire frames 
-
 - An open source was used to design this website - Balsamiq Wireframes:
-https://balsamiq.com/learn/articles/what-are-wireframes/
 
 ![](readme/wf%201.png)
 
@@ -245,21 +234,22 @@ https://balsamiq.com/learn/articles/what-are-wireframes/
 # Technologies
 
 ### Testing
-- The Podcast Project has had all html and css markup tested using The W3 css validtor service https://jigsaw.w3.org/css-validator/validator#warnings website. This is enusure all markup is working effectively throughout each web page.
+- The podcast project has had all html and css markup tested using The W3 css validator service https://jigsaw.w3.org/css-validator/validator#warnings website. This is to ensure all markup is working effectively throughout each webpage.
 
-- Css validtion tests
+- Css validation tests
 ![](readme/css%20validator.png)
 
-- Home page validtion tests
+- Homepage validation tests
 ![](readme/Screenshot%202022-07-27%20at%2007.32.56.png)
 
-- About us page validtion tests
+- About us page validation tests
 ![](readme/about%20validtion.png)
 
-- Listen page validation 
+- Listen page validation
 ![](readme/listen%20validating.png)
 
 - Sign up page 
+
 ![](readme/sign%20up%20validation.png)
 
 ___
@@ -272,7 +262,6 @@ ___
  ---
 
 ### Responsive Design 
-
 - The Podcast Project has been tested with it's responsiveness in four screen sizes and devices. These devices are, iphone SE, ipad mini, a latop screen size if 1200px and in a browser screen size. 
 The use of developer tools in Google Chrome where used in the creating and testing of the webistes responsiveness, along with the help of I Am Responsive https://ui.dev/amiresponsive?url=https://christoph33one.github.io/my-first-project/index.html. 
 
@@ -316,14 +305,12 @@ The Podcast project was tested using Lighouse, In Google developer tools. All pa
 ---
 
 # Depoyment 
-
-- You will find the repository to The Project Podcast in Github. With the Github plateform, you can create a respoitory file and then link this file to a Gitpod workspace, then just by clicking the green button in the top right hand corner of the page.
+- The Podcast Project was deployed through Gitpod and added to Github. From here you access the live link to the site.
 https://www.gitpod.io/
 
 ![](readme/git%20pod%20repo.png)
 
 # Credits
-
 - All images where taken from Pixels https://www.pexels.com/
 
 - The layout of colors are picked using the complementary shade selector with Adobe Color Wheel https://color.adobe.com/create/color-wheel
