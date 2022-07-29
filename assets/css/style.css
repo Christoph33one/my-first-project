@@ -294,7 +294,10 @@ footer {
     float: left;
     margin-top: 10%;
 }
+.not-found-page {
+    background-color: #fff;
     
+}    
 /* for tablet screen sizes max-width 768px */
 @media screen and (max-width: 768px) {
 h2 {
