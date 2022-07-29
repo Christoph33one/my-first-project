@@ -113,7 +113,7 @@ The text divider only consist's on home page and about us page.) */
 }
 .stories img {
     width: 80%;
-    height: 600px;
+    height: 500px;
     border-radius: 8px;
 }
 .stories a  {
@@ -438,6 +438,7 @@ p {
 
 .section {
     flex-direction: column;
+    background-color: inherit;
     }
 
 .section img {
@@ -447,6 +448,8 @@ p {
 .text {
     border: solid #B0B0BF;
     width: fit-content;
+    margin-left: 10%; 
+    
     }
 
 .text h3 {
