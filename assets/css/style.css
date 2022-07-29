@@ -294,13 +294,14 @@ footer {
     float: left;
     margin-top: 10%;
 }
-#error-section h1 {
+
+.error-section h1 {
     color: #fff;
     position: absolute;
     top: 30%;
     left: 40%;
 }
-#error-section a {
+.error-section a {
     color: #fff;
 
 }
