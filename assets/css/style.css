@@ -111,23 +111,20 @@ The text divider only consist's on home page and about us page.) */
     max-width: 100%;
 }
 .stories {
+    flex: 30%;
+    padding: 5px;
     text-align: center;
-    width: 40%;
-    float: left;
-    margin-left: 30px;
-    margin-right: 40px;
-    padding: 30px;  
 }
 .stories img {
     width: 80%;
-    max-height: 400px;
+    height: 600px;
     border-radius: 8px;
-    object-fit: cover;
 }
 .stories a  {
     text-align: center;
     text-decoration: none;
     clear: both;
+   
 }
 
 /* about page*/
@@ -332,13 +329,17 @@ label {
     .main-title-box {
         top: 20%;
     }
+
+.stories img {
+    height: auto;
 }
 .thankyou-text {
     font-size: 90%;
 }
+}
 
 /* for mobile screen sizes max-width 375px*/
-@media screen and (max-width: 375) {
+@media screen and (max-width: 375px) {
 .hero-image-container {
         height: 400px;
     }
