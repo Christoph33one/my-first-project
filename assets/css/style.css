@@ -294,10 +294,7 @@ footer {
     float: left;
     margin-top: 10%;
 }
-.not-found-page {
-    background-color: #fff;
-    
-}    
+
 /* for tablet screen sizes max-width 768px */
 @media screen and (max-width: 768px) {
 h2 {
@@ -326,6 +323,7 @@ label {
     }
     .main-title-box {
         top: 20%;
+        display: none;
     }
 
 .stories img {
@@ -335,6 +333,57 @@ label {
     font-size: 90%;
 }
 }
+
+/* for screen sizes max-width 500px*/
+@media screen and (max-width: 500px) {
+#main-icon {
+        display: none;
+        }
+#nav-menu li {
+    text-align: left;
+    font-size: 70%;
+    float: none;
+    }
+.section {
+    flex-direction: column;
+    }
+    
+.section img {
+    width: 100%;
+    }
+    
+.text {
+    border: solid #B0B0BF;
+    width: fit-content;
+    }
+    
+.text h3 {
+    font-size: 60%;
+    }
+    
+.text h4 {
+    font-size: 60%;
+    }
+    
+.section img {
+    width: 100%;
+    }
+
+.background-image {
+    background-attachment: fixed;
+     }   
+.form-box {
+    width: 80vw;
+    top: 70vh;
+    margin-left: 10%;
+    margin-top: 0;
+    }
+    
+}
+
+
+
+
 
 /* for mobile screen sizes max-width 375px*/
 @media screen and (max-width: 375px) {
