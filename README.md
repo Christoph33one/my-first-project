@@ -51,9 +51,9 @@ The goal behind the idea, is to get users to sign up for free, this will give th
 
 - I want to be able to navigate easily thought the Links and pages, to find what I am interested in and to also navigate back to the Homepage simply.
 
--  To trying out the free sample podcasts, to get feel of what more can be offered if I was to sigh up.
+-  When browsing the free sample podcasts, I want to it to be quick and easy for me as the user, also to get a feel of what more can be offered if I was to sign up.
 
-- To be able to sigh up for free, to understand the form layout and have conformation that I have signed up correctly
+- When signing up for free, I want to be able to understand the form layout simply and have conformation that I have signed up correctly, with a message.
 ---
 
 # Features 

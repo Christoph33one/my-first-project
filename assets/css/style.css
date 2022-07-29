@@ -288,12 +288,19 @@ footer {
     height: 100vh;
     }
 .thankyou-text {
-    font-size: 120%;
-    margin-left: 5%;
-    color: #fff;
-    float: left;
-    margin-top: 10%;
+    clear: both;
+    width: 50%;
+    font-size: 60%;
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    display: block;
 }
+.thankyou-text a {
+    color: #fff;
+    text-decoration: underline;
+}
+
 
 /* for tablet screen sizes max-width 768px */
 @media (min-width: 500px) and (max-width:768px)  {
