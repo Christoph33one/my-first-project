@@ -78,7 +78,6 @@ display: flex;
 object-position: center center;
 background-attachment: fixed;
 }
-
 .main-title-box {
 font-size: 100%;
 position: absolute;
@@ -91,7 +90,6 @@ opacity: 0.5;
 color: #fff;
 background-color: black;
 }
-
 /* Text Divider (Used to create brake lines between text or images. Gives a clean and simple style to the page.) 
 The text divider only consist's on home page and about us page.) */
 .text-divider {
@@ -101,11 +99,9 @@ The text divider only consist's on home page and about us page.) */
     background-color:#fff;
     display: inline-block;
 }
-
 .beginners-guide, h2 {
     text-align: center;
 }
-
 .main-container {
     display: flex;
     max-width: 100%;
@@ -124,7 +120,6 @@ The text divider only consist's on home page and about us page.) */
     text-align: center;
     text-decoration: none;
     clear: both;
-   
 }
 
 /* about page*/
