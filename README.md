@@ -283,20 +283,24 @@ The Podcast project was tested using Lighouse, In Google developer tools. All pa
 
 
 - Home Page
+
 ![](readme/light%20house%201.png)
 
 
 
 - About Us page 
+
 ![](readme/light%20house%202.png)
 
 
 - listen page 
+
 ![](readme/light%20house%203.png)
 
 
 - Sign Up Page 
-![](readme/light%20house%204.png)
+
+![](readme/lighthouse%204.png)
 
 ---
 

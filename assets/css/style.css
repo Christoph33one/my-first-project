@@ -26,14 +26,14 @@ h3 {
 }
 h3, h4 {
     font-family: Open Sans,sans-serif;
-    text-transform: capitalize;
+    text-transform: none;
     text-align: center;
     color: #fff
 }
 p {
     font-family: Open Sans,sans-serif;
     text-align: center;
-    text-transform: capitalize;
+    text-transform: none;
     color: #fff;
 }
 /* home page */
@@ -112,8 +112,8 @@ The text divider only consist's on home page and about us page.) */
     text-align: center;
 }
 .stories img {
-    width: 80%;
-    height: 500px;
+    width: 70%;
+    height: 50%;
     border-radius: 8px;
 }
 .stories a  {
@@ -143,8 +143,6 @@ The text divider only consist's on home page and about us page.) */
 .about-text-wrapper {
     clear: both;
     height: 400px;
-    border: solid #B0B0BF;
-    border-radius: 8px;
 }
 .about-text-wrapper, p {
     width: 100%;
@@ -175,7 +173,7 @@ The text divider only consist's on home page and about us page.) */
     border: solid #000000;
     border-radius: 10px;
     width: 50%;
-    margin: 20px 20px;
+    margin: 5px 5px;
     }
 a {
     list-style: none;
