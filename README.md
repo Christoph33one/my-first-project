@@ -11,7 +11,6 @@
 <li><a href="#wire-frames">Wireframes</a></li>
 
 ---
-<br>
 
 # Features 
 <li><a href="#home-page">Home Page</a></li>
@@ -26,7 +25,6 @@
 <li><a href="#future-features">Future Features</a></li>
 
 ---
-<br>
 
 # Technologies 
 <li><a href="#testing">Testing</a></li>
@@ -37,7 +35,6 @@
 # Erros and Debugging
 <li><a href="#debugging">Debugging</a></li>
 <li><a ></a></li>
-
 
 ### Home Page
 The Podcast Project is created to get users interested in listening to Podcasts. This is where users can explore the site and choose five sample podcasts of differet topics before signing up. 
@@ -153,7 +150,7 @@ The goal behind the idea, is to get users to sign up for free, this will give th
 
 - Once the user has entered all information correctly, they will be navigated to a thank you page. This is to give conformation to the user that their personal detials have been sent.
 
-![](readme/thank%20you%20page.png)
+![](readme/url%2011.png)
 
 ---
 
@@ -190,33 +187,33 @@ https://fontawesome.com/
 # Colors 
 ---
 
-- All colours a are picked using a complementary Shade setting with Adobe Color Wheel. Different shades of Grey are used to give a feeling of warmth throughout the site. This also reduces the brightness of the screen, to be more user friendly with people using contact lenses or glasses. 
+- All colours are picked using a complementary Shade setting within Adobe Color Wheel. Different shades of Grey are used to give a feeling of warmth throughout the site. This also reduces the brightness of the backgorund color, to be more user friendly with people using contact lenses ,glasses or sensitive eye sight. 
 
 
-- The color Pink is used to breakup some similarities for when needing to click on a link or to highlight an icon. Pink was also picked using adobe color wheel inline with the complementry shades of Grey.
+- The color Pink ( #B50273 ) is used to breakup some similarities for when needing to click on a link or to highlight an icon. Pink was also picked using adobe color wheel inline with the complementry shades of Grey.
 
 - All colors are taken from an open source - Adobe Colour Wheel
 https://color.adobe.com/create/color-wheel
 
 - Background color for body - #3A383B "Dark Grey"
-- Page tiles and section tiltes -#000000 "Black"
+- Page titles and section tiltes -#000000 "Black"
 - Home icon - #66666B "medium grey"
-- H3, H4 & Paragraphs - #fff "White"
+- Nav bar & Footer - #fff "White"
 - H2 Icons - #B50273 "Pink"
-- text borders - #000000 "Balck"
-- Image borders - #D9D2D7 "light grey"
+- H3, H4 & Paragraphs - #fff "White"
+- Text & Form borders - #000000 "Black"
 
 ![](readme/adobe%20color%20wheel.png)
 
 ---
 # Content
 
-- Content was taken from Spring Cast  then conscripted in my own words.
+- Content for The Podcast Project was taken from Spring Cast then conscripted in my own words.
 https://springcast.fm/podcast-website/
 
 # Media
 
-- Images where used from an open source - Pixels
+- Images are used from an open source - Pixels
 https://www.pexels.com/nl-nl/
 
 
@@ -329,7 +326,10 @@ https://www.gitpod.io/
 
 - All font familys are picked with Google Fonts https://fonts.google.com/
 
-- The Icons used where located through Fontsawsome https://fontawesome.com/v5/search
+- The Icons used were located through Fontsawsome https://fontawesome.com/v5/search
+
+- Links used in the website are from Youtube.
+https://www.youtube.com/premium
 
 
 
