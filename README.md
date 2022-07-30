@@ -255,9 +255,21 @@ https://www.pexels.com/nl-nl/
 ___
 
 ### Browser Tests
- The Podcast Project has been tested on to two browser 
- - Google Chrome 
- -Safari 
+ - Google Chrome
+
+ - Safari 
+
+- The Home icon has been tested on all pages with it's display fixed feature from header to footer. It's feature being clickable was also tested on all pages, making sure it navagtes the user back to the Home page.
+
+- The Nav bar has been tested on all pages, making sure it navigates the user to the required page selected. From Home page to a thank you conformation page when you sign up.
+
+- All media links are wrapped in an anchor tab. The testing here is to make sure that all links open on a separate broswer and to the correct video or website selected.
+
+- All inputs in the form section have been tested as to entering text and making sure the (required) feature works when entering information before you can submit. 
+
+- The submit and reset buttons for the form page have been tested. The reset button will delete all text in all input boxes when clicked. The submit button is clickable and sends the user to the conformation page (thank you page)
+
+- All media quiries have been test through Google Chrome developer tools. Testing was focused on mobile screen sizes the most, as some content is removed on a mobile device.
 
  ---
 
@@ -303,6 +315,10 @@ The Podcast project was tested using Lighouse, In Google developer tools. All pa
 - When validating my html mark up, an error flagged up (header open). The issue was that I had wrapped a h1 element around an icon within the header on all pages. I believed wrapping an icon in a h1 would be the best practice for styling purposes in css. Once I had researched through W3schools https://www.w3schools.com/ to get an understanding to adding Icons into the html and what elements to use on them I went back and solved this error, I removed the h1 element and left it in it's original anchor tag, then in my css, I selevted the anchor element for styling aloing with it's class name.
 
 ---
+
+### Github
+
+- The Podcast 
 
 # Depoyment 
 - The Podcast Project was deployed through Gitpod and added to Github. From here you access the live link to the site.

@@ -341,7 +341,7 @@ label {
 }
 
 /* for screen sizes max-width 500px*/
-@media (min-width: 375px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 500px) {
 #main-icon {
         display: none;
         }
@@ -388,12 +388,12 @@ label {
 }
 
 /* for mobile screen sizes max-width 375px*/
-@media (min-width: 375px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 500px) {
 .hero-image-container {
         height: 400px;
     }
 }
-@media (min-width: 375px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 500px) {
 .about-image-container {
      height: 100%;
     }
@@ -430,7 +430,7 @@ p {
     display: none;
     }
 }
-@media (min-width: 375px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 500px) {
 .page-title {   
     display: none;
 }
@@ -464,7 +464,7 @@ br {
     }
 }
 
-@media (min-width: 375px) and (max-width: 500px) {
+@media (min-width: 300px) and (max-width: 500px) {
  .background-image {
     background-attachment: fixed;
  }   
