@@ -350,6 +350,7 @@ label {
     font-size: 70%;
     float: none;
     }
+
 .section {
     flex-direction: column;
     }
@@ -388,11 +389,6 @@ label {
 }
 
 /* for mobile screen sizes max-width 375px*/
-@media (min-width: 300px) and (max-width: 500px) {
-.hero-image-container {
-        height: 400px;
-    }
-}
 @media (min-width: 300px) and (max-width: 500px) {
 .about-image-container {
      height: 100%;
