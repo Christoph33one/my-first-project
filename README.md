@@ -277,7 +277,7 @@ ___
 - The Podcast Project has been tested with it's responsiveness in four screen sizes and devices. These devices are, iphone SE, ipad mini, a latop screen size if 1200px and in a browser screen size. 
 The use of developer tools in Google Chrome where used in the creating and testing of the webistes responsiveness, along with the help of I Am Responsive https://ui.dev/amiresponsive?url=https://christoph33one.github.io/my-first-project/index.html. 
 
-![](readme/responsive%20design.png)
+![](readme/I%20am%20responsvie.png)
 
 ### Light House tests
 The Podcast project was tested using Lighouse, In Google developer tools. All page where testen on Preformance, accessibility, best practice and SEO. 
