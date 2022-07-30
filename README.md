@@ -356,6 +356,8 @@ https://www.youtube.com/premium
 
 ---
 # Acknowledgments
+- With the help fof W3schools, I was able to follow some code syntax and then apply my own mark up and styles in html and css.
+
 My fisrt project with Code Institute was built using Github and Gitpod. With the tools provided I have created a website using html and css only. I would like to say thank you to Code Institute for providing me with the tools to build my first project. A big thank you to the slack community for all the support throughout the project. 
 To my mentor, tutor support and student care, for providing advice and keeping me on track with the project. 
 
